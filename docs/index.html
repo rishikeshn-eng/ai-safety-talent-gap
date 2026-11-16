@@ -1,0 +1,511 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>AI Safety Talent Gap</title>
+<meta name="description" content="A daily count of open roles at AI safety organisations: what kind of work, how long they have been open, and what operations roles ask for.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+/* The portfolio's night palette. One accent per project: this one is green.
+   Chart colours were run through the dataviz validator on the card surface #16132B:
+   --mark #44A860 sits in the dark lightness band (L 0.48-0.67), clears the chroma floor and 3:1 contrast;
+   --gray #77739A is the de-emphasis grey (CVD distance from --mark 14.7, normal vision 20.7). */
+:root{
+  color-scheme:dark;
+  --bg:#0E0C1D; --surface:#16132B; --surface-2:#201C3B; --ink:#EEEAF8; --ink-2:#D3CEE6; --muted:#A09BBE;
+  --line:rgba(238,234,248,.12); --line-2:rgba(238,234,248,.24);
+  --accent:#9BE08A; --mark:#44A860; --mark-track:#1D3A2B; --gray:#77739A;
+  --display:'Bricolage Grotesque',system-ui,sans-serif; --text:-apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",Roboto,sans-serif;
+  --mono:'JetBrains Mono',ui-monospace,Menlo,monospace; --ease:cubic-bezier(.2,.7,.2,1);
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-padding-top:72px;scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 var(--text);-webkit-font-smoothing:antialiased;overflow-x:clip}
+body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background:repeating-linear-gradient(90deg,rgba(155,224,138,.10) 0 1px,transparent 1px 44px);-webkit-mask-image:linear-gradient(180deg,#000,transparent 70%);mask-image:linear-gradient(180deg,#000,transparent 70%)}
+::selection{background:var(--accent);color:#0E0C1D}
+a{color:var(--accent);text-underline-offset:3px;text-decoration-thickness:1px}
+a:hover{text-decoration-thickness:2px}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:6px}
+p{text-wrap:pretty;margin:0 0 14px}
+h1,h2,h3{font-family:var(--display);letter-spacing:-.03em;margin:0}
+.wrap{max-width:1120px;margin:0 auto;padding:0 max(16px,env(safe-area-inset-right,0px)) 0 max(16px,env(safe-area-inset-left,0px))}
+
+.labbar{position:sticky;top:0;z-index:20;background:rgba(22,19,43,.72);-webkit-backdrop-filter:saturate(1.5) blur(18px);backdrop-filter:saturate(1.5) blur(18px);border-bottom:1px solid var(--line)}
+.labbar-in{min-height:56px;display:flex;align-items:center;gap:16px}
+.labbar .home{font:600 15px/1 var(--text);color:var(--ink);text-decoration:none;white-space:nowrap;display:flex;align-items:center;gap:10px;min-height:44px}
+.labbar .home i{font:800 13px/1 var(--display);font-style:normal;color:#0E0C1D;background:var(--accent);width:24px;height:24px;border-radius:6px;display:grid;place-items:center}
+.labbar nav{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none;margin-left:auto;min-width:0}
+.labbar nav::-webkit-scrollbar{display:none}
+.labbar nav a{color:var(--muted);text-decoration:none;font-size:14px;padding:0 12px;min-height:44px;display:flex;align-items:center;border-radius:999px;white-space:nowrap}
+.labbar nav a:hover{color:var(--ink);background:rgba(238,234,248,.07)}
+
+.hero{padding:56px 0 8px}
+.eyebrow{font:600 12px/1.4 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin:0 0 18px}
+h1{font-size:clamp(38px,6vw,72px);line-height:1;font-weight:800;max-width:16ch}
+.lede{font-size:clamp(18px,2.1vw,22px);line-height:1.5;color:var(--ink-2);max-width:62ch;margin:22px 0 0}
+.plain{display:grid;grid-template-columns:auto 1fr;gap:14px 18px;align-items:start;margin:26px 0 8px;max-width:780px;background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:16px;padding:18px 22px}
+.plain b{font:600 11px/1.6 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--accent);white-space:nowrap;padding-top:3px}
+.plain p{margin:0;font-size:18px;line-height:1.55}
+@media (max-width:600px){.plain{grid-template-columns:1fr}}
+
+.lead{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.5fr);gap:16px;margin:36px 0 0;align-items:stretch}
+@media (max-width:860px){.lead{grid-template-columns:1fr}}
+.heronum{background:var(--surface);border:1px solid var(--line);border-top:4px solid var(--accent);border-radius:22px;padding:26px 26px 24px;display:flex;flex-direction:column;justify-content:center}
+.heronum .v{font:800 clamp(64px,9vw,112px)/.9 var(--display);letter-spacing:-.05em}
+.heronum .l{color:var(--ink-2);font-size:18px;margin-top:12px;max-width:26ch}
+.heronum .u{font:400 12px/1.5 var(--mono);color:var(--muted);margin-top:14px}
+.tiles{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);border:1px solid var(--line);border-radius:22px;overflow:hidden}
+.tile{background:var(--bg);padding:20px 22px}
+.tile .l{font-size:14px;color:var(--muted);line-height:1.35}
+.tile .v{font:700 clamp(30px,4vw,44px)/1.05 var(--display);letter-spacing:-.03em;margin-top:8px}
+.tile .s{font-size:14px;color:var(--ink-2);margin-top:4px}
+
+section{padding:72px 0 0}
+.sec-n{font:600 12px/1 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:0 0 12px}
+h2{font-size:clamp(28px,3.6vw,42px);line-height:1.08;font-weight:800;max-width:22ch}
+.finding{font-size:19px;line-height:1.55;color:var(--ink-2);max-width:66ch;margin:16px 0 0}
+.finding b{color:var(--ink);font-weight:600}
+
+.fig{margin:26px 0 0;background:var(--surface);border:1px solid var(--line);border-radius:22px;padding:22px 22px 16px}
+.fig h3{font-size:19px;font-weight:700;letter-spacing:-.02em}
+.fig .sub{font-size:14px;color:var(--muted);margin:4px 0 16px}
+.legend{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:14px;color:var(--ink-2);margin:0 0 14px}
+.legend span{display:inline-flex;align-items:center;gap:8px}
+.legend i{width:12px;height:12px;border-radius:3px;background:var(--gray);flex:none}
+.legend i.on{background:var(--mark)}
+.legend i.ln{height:2px;width:16px;border-radius:1px}
+
+.bars{display:grid;gap:2px}
+.row{display:grid;grid-template-columns:minmax(120px,220px) 1fr;gap:14px;align-items:center;min-height:36px;padding:2px 8px;margin:0 -8px;border-radius:10px;cursor:default}
+.row:hover,.row:focus-visible{background:rgba(238,234,248,.06)}
+.row .rl{font-size:15px;color:var(--ink-2);line-height:1.25;overflow-wrap:anywhere}
+.row.on .rl{color:var(--ink);font-weight:600}
+.row .rb{display:flex;align-items:center;gap:2px;min-width:0}
+.row .rb i{display:block;height:16px;background:var(--gray);flex:none;min-width:2px;transition:width .8s var(--ease)}
+.row .rb i.on{background:var(--mark)}
+.row .rb i.end{border-radius:0 4px 4px 0}
+.row .rv{font:600 14px/1 var(--text);color:var(--ink);margin-left:8px;white-space:nowrap;font-variant-numeric:tabular-nums}
+.row .rv small{font-weight:400;color:var(--muted);font-size:13px}
+.row:hover .rb i,.row:focus-visible .rb i{filter:brightness(1.18)}
+#c-orgs,#c-labs{--reserve:176px}
+.fig + .fig{margin-top:16px}
+.meter .rb{position:relative;height:10px;background:var(--mark-track);border-radius:5px;overflow:hidden;gap:0}
+.meter .rb i{height:10px;background:var(--mark);border-radius:5px}
+.meter{grid-template-columns:minmax(120px,240px) 1fr auto}
+.meter .rv{margin-left:0;min-width:8.5ch;text-align:right}
+@media (max-width:620px){
+  .bars{--reserve:64px}#c-days{--reserve:88px}#c-orgs,#c-labs{--reserve:48px}
+  .row .rv small{display:none}
+  .filters label:not(.chk){flex:1 1 100%}.filters select,.filters input[type=search]{width:100%}
+  .row{grid-template-columns:1fr;gap:4px;padding:8px;min-height:44px}
+  .meter{grid-template-columns:1fr auto}.meter .rl{grid-column:1/-1}
+}
+.tv{margin-top:14px;border-top:1px solid var(--line);padding-top:8px}
+.tv summary{cursor:pointer;font-size:14px;color:var(--muted);min-height:44px;display:flex;align-items:center;width:max-content}
+.tv summary:hover{color:var(--ink)}
+.tv table{margin-top:4px}
+table{border-collapse:collapse;width:100%;font-size:15px}
+th{text-align:left;font:600 11px/1.4 var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--muted);padding:10px 12px 10px 0;border-bottom:1px solid var(--line-2);white-space:nowrap}
+td{padding:11px 12px 11px 0;border-bottom:1px solid var(--line);vertical-align:top;color:var(--ink-2)}
+td.num,th.num{text-align:right;font-variant-numeric:tabular-nums;padding-right:0}
+#jobs td.num{white-space:nowrap;padding-left:12px}
+.note{font-size:14px;color:var(--muted);max-width:70ch;margin:14px 0 0}
+
+#tip{position:fixed;z-index:50;pointer-events:none;background:#0B0A17;border:1px solid var(--line-2);border-radius:12px;padding:10px 12px;font-size:13px;color:var(--ink-2);box-shadow:0 18px 40px -12px rgba(0,0,0,.7);max-width:260px;visibility:hidden}
+#tip.show{visibility:visible}
+#tip b{display:block;font:700 18px/1.2 var(--display);color:var(--ink);letter-spacing:-.02em}
+#tip .k{display:flex;align-items:center;gap:8px;margin-top:4px}
+#tip .k i{width:12px;height:2px;border-radius:1px;background:var(--gray);flex:none}
+#tip .k i.on{background:var(--mark)}
+#tip .k strong{color:var(--ink);font-weight:600}
+
+.trend svg{display:block;width:100%;height:auto;overflow:visible}
+.trend .grid{stroke:rgba(238,234,248,.10);stroke-width:1}
+.trend .axis{stroke:rgba(238,234,248,.24);stroke-width:1}
+.trend text{font:12px var(--text);fill:var(--muted)}
+.trend .endl{fill:var(--ink-2);font-size:13px;font-weight:600}
+.empty{border:1px dashed var(--line-2);border-radius:16px;padding:26px 22px;color:var(--ink-2);font-size:16px;max-width:none}
+.empty b{display:block;font:700 19px var(--display);color:var(--ink);margin-bottom:6px;letter-spacing:-.02em}
+
+.panel{margin:26px 0 0;background:var(--surface);border:1px solid var(--line);border-top:4px solid var(--accent);border-radius:22px;padding:22px}
+.filters{display:flex;flex-wrap:wrap;gap:10px 12px;align-items:end;margin:0 0 6px}
+.filters label{display:grid;gap:6px;font:600 11px/1 var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.filters select,.filters input[type=search]{min-height:44px;background:var(--bg);color:var(--ink);border:1px solid var(--line-2);border-radius:12px;padding:0 12px;font:16px var(--text);min-width:150px;max-width:100%}
+.filters .chk{display:flex;align-items:center;gap:8px;min-height:44px;font:15px var(--text);letter-spacing:0;text-transform:none;color:var(--ink-2);cursor:pointer}
+.filters .chk input{width:20px;height:20px;accent-color:var(--mark)}
+.count{font-size:14px;color:var(--muted);margin:10px 0 2px}
+#jobs td a{color:var(--ink);font-weight:600;text-decoration-color:var(--line-2)}
+#jobs td a:hover{color:var(--accent)}
+#jobs .pill{display:inline-block;font:400 12px/1 var(--mono);padding:5px 8px;border-radius:999px;border:1px solid var(--line-2);color:var(--ink-2);white-space:nowrap}
+#jobs .pill.on{border-color:var(--mark);color:var(--ink)}
+#more{margin:16px 0 0;min-height:44px;padding:0 20px;border-radius:999px;border:1px solid var(--line-2);background:none;color:var(--ink);font:600 15px var(--text);cursor:pointer}
+#more:hover{border-color:var(--accent)}
+@media (max-width:720px){
+  #jobs thead{display:none}
+  #jobs,#jobs tbody,#jobs tr,#jobs td{display:block;width:100%}
+  #jobs tr{padding:14px 0;border-bottom:1px solid var(--line)}
+  #jobs td,#jobs td.num{border:0;padding:2px 0;text-align:left}
+  #jobs td.num::before{content:attr(data-l) ": ";color:var(--muted)}
+  #jobs td:empty{display:none}
+}
+
+.method{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:26px}
+@media (max-width:820px){.method{grid-template-columns:1fr}}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:20px 22px}
+.card h3{font-size:19px;margin-bottom:10px}
+.card ul{margin:0;padding-left:20px;color:var(--ink-2);font-size:16px}
+.card li{margin:0 0 8px}
+footer{margin-top:80px;border-top:1px solid var(--line);padding:26px 0 calc(40px + env(safe-area-inset-bottom,0px));color:var(--muted);font-size:14px}
+footer .wrap{display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-between}
+#err{display:none;margin:24px 0;padding:16px 20px;border:1px solid var(--line-2);border-radius:14px;color:var(--ink-2)}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.row .rb i{transition:none}}
+</style>
+</head>
+<body>
+<header class="labbar"><div class="wrap labbar-in">
+  <a class="home" href="https://claude.ai/artifact/HFzmFTYLBw6n7KTCFKAdSQ"><i>R</i>Rishikesh Nair</a>
+  <nav aria-label="Sections"><a href="#kinds">Kinds of work</a><a href="#days">Time open</a><a href="#skills">Operations skills</a><a href="#orgs">Who is hiring</a><a href="#roles">Browse roles</a><a href="#method">Method</a></nav>
+</div></header>
+
+<main class="wrap">
+  <div class="hero">
+    <p class="eyebrow">AI safety talent · live job data</p>
+    <h1>Who is AI safety trying to hire?</h1>
+    <p class="lede" id="lede">Counting the open roles at AI safety organisations, every day.</p>
+    <aside class="plain"><b>In plain words</b><p>AI safety groups often say they can't find enough people. I wanted to see that in numbers. This page reads their job boards every day and counts what is open, what kind of work it is, and how long it has been waiting.</p></aside>
+    <div id="err" role="alert"></div>
+    <div class="lead">
+      <div class="heronum"><div class="v" id="heroV">–</div><div class="l" id="heroL">open roles</div><div class="u" id="heroU"></div></div>
+      <div class="tiles" id="tiles"></div>
+    </div>
+  </div>
+
+  <section id="kinds">
+    <p class="sec-n">Finding 1</p>
+    <h2>What kind of people are they looking for?</h2>
+    <p class="finding" id="f-kinds"></p>
+    <figure class="fig" aria-labelledby="t-kinds">
+      <h3 id="t-kinds">Open roles by kind of work</h3>
+      <p class="sub">Operations highlighted. Open applications with no specific role are left out.</p>
+      <div class="bars" id="c-kinds" role="list"></div>
+      <details class="tv"><summary>View as table</summary><table id="tv-kinds"></table></details>
+    </figure>
+    <p class="note">Operations here means the roles that keep an organisation running: people and hiring, finance, legal, IT, events, programme management and chief-of-staff work.</p>
+  </section>
+
+  <section id="days">
+    <p class="sec-n">Finding 2</p>
+    <h2>How long have these roles been open?</h2>
+    <p class="finding" id="f-days"></p>
+    <figure class="fig" aria-labelledby="t-days">
+      <h3 id="t-days">Median days open, by kind of work</h3>
+      <p class="sub">Half the open roles of each kind have been advertised for longer than this. Kinds with fewer than five roles are left out.</p>
+      <div class="bars" id="c-days" role="list"></div>
+      <details class="tv"><summary>View as table</summary><table id="tv-days"></table></details>
+    </figure>
+    <p class="note">Read this with care. It only counts roles that are still open today. A role that was filled in two weeks is already gone from the list, so these numbers lean long. Some adverts also stay up all year on purpose.</p>
+  </section>
+
+  <section id="skills">
+    <p class="sec-n">Finding 3</p>
+    <h2>What do operations adverts ask for?</h2>
+    <p class="finding" id="f-skills"></p>
+    <figure class="fig" aria-labelledby="t-skills">
+      <h3 id="t-skills">Share of operations adverts that mention each area</h3>
+      <p class="sub" id="s-skills"></p>
+      <div class="bars" id="c-skills" role="list"></div>
+      <details class="tv"><summary>View as table</summary><table id="tv-skills"></table></details>
+    </figure>
+    <p class="note">This is keyword matching on the part of each advert that describes the role. Text that an organisation repeats in every advert, such as benefits, is removed first. It shows what gets mentioned, which is a rough guide to what gets used.</p>
+  </section>
+
+  <section id="orgs">
+    <p class="sec-n">Finding 4</p>
+    <h2>Who is hiring?</h2>
+    <p class="finding" id="f-orgs"></p>
+    <figure class="fig" aria-labelledby="t-orgs">
+      <h3 id="t-orgs">Open roles by organisation</h3>
+      <p class="sub">Each bar is one organisation. The green part is operations.</p>
+      <div class="legend" aria-hidden="true"><span><i class="on"></i>Operations roles</span><span><i></i>All other roles</span></div>
+      <div class="bars" id="c-orgs" role="list"></div>
+      <details class="tv"><summary>View as table</summary><table id="tv-orgs"></table></details>
+    </figure>
+    <figure class="fig" aria-labelledby="t-labs">
+      <h3 id="t-labs">Frontier labs: safety and policy teams only</h3>
+      <p class="sub">Counted separately, on its own scale. These are filtered slices of two much larger job boards.</p>
+      <div class="legend" aria-hidden="true"><span><i class="on"></i>Operations roles</span><span><i></i>All other roles</span></div>
+      <div class="bars" id="c-labs" role="list"></div>
+      <details class="tv"><summary>View as table</summary><table id="tv-labs"></table></details>
+    </figure>
+    <p class="note">For Anthropic and OpenAI the tracker keeps only roles whose title or team mentions safety, safeguards, alignment, interpretability, policy or similar. Their other openings are left out, and their numbers stay out of the headline counts above.</p>
+  </section>
+
+  <section id="trend">
+    <p class="sec-n">Over time</p>
+    <h2>Is the number of open roles going up or down?</h2>
+    <figure class="fig trend" aria-labelledby="t-trend">
+      <h3 id="t-trend">Open roles, counted daily</h3>
+      <p class="sub" id="s-trend">All roles at the tracked AI safety organisations, and the operations roles among them.</p>
+      <div id="c-trend"></div>
+      <details class="tv" id="d-trend" hidden><summary>View as table</summary><table id="tv-trend"></table></details>
+    </figure>
+  </section>
+
+  <section id="roles">
+    <p class="sec-n">Explore</p>
+    <h2>Browse the open roles</h2>
+    <p class="finding">Every role links to the organisation's own advert. Operations roles are shown first; change the filters to see the rest.</p>
+    <div class="panel">
+      <div class="filters">
+        <label>Kind of work<select id="f-cat"></select></label>
+        <label>Organisation<select id="f-org"></select></label>
+        <label>Order<select id="f-sort"><option value="old">Longest open first</option><option value="new">Newest first</option><option value="org">Organisation A to Z</option></select></label>
+        <label>Search<input type="search" id="f-q" placeholder="Title or place" autocomplete="off"></label>
+        <label class="chk"><input type="checkbox" id="f-remote">Remote only</label>
+        <label class="chk"><input type="checkbox" id="f-labs">Include frontier labs</label>
+      </div>
+      <p class="count" id="count" aria-live="polite"></p>
+      <table id="jobs"><thead><tr><th>Role</th><th>Organisation</th><th>Kind</th><th>Place</th><th class="num">Days open</th><th class="num">Salary</th></tr></thead><tbody></tbody></table>
+      <button id="more" type="button" hidden>Show more</button>
+    </div>
+  </section>
+
+  <section id="method">
+    <p class="sec-n">Method</p>
+    <h2>How this is counted, and where it falls short</h2>
+    <div class="method">
+      <div class="card"><h3>How it works</h3><ul>
+        <li>Once a day a script reads the public job feed of each organisation. These feeds are the same ones that power their careers pages.</li>
+        <li>Each role is sorted into a kind of work by the words in its title.</li>
+        <li>"Days open" runs from the date the advert was first published to today.</li>
+        <li>A daily count is saved, so the trend chart fills in over time and closing dates can be worked out later.</li>
+        <li id="m-orgs"></li>
+      </ul></div>
+      <div class="card"><h3>Limits</h3><ul>
+        <li>It covers the organisations whose job systems can be read openly. Many others in the field, including several large ones, post jobs in ways this tracker can't read yet.</li>
+        <li>An open advert shows demand. It can't show how many good people applied, so it can't prove a shortage by itself.</li>
+        <li>Sorting by title makes mistakes. A "Program Lead" can be research in one place and operations in another.</li>
+        <li>Days open leans long, for the reasons given under Finding 2.</li>
+        <li>Salaries appear only where the organisation publishes them in its feed.</li>
+      </ul></div>
+    </div>
+  </section>
+</main>
+
+<footer><div class="wrap"><span>Built by Rishikesh Nair. Data from public job feeds, read daily.</span><span><a href="https://github.com/rishikeshn-eng/ai-safety-talent-gap">Code and data on GitHub</a></span></div></footer>
+<div id="tip" role="tooltip"></div>
+
+<script>
+const $ = s => document.querySelector(s);
+const el = (tag, cls, text) => { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e };
+const median = a => { if (!a.length) return null; const s = [...a].sort((x, y) => x - y), m = s.length >> 1; return s.length % 2 ? s[m] : (s[m - 1] + s[m]) / 2 };
+const pct = (a, b) => b ? Math.round(100 * a / b) : 0;
+const ordinal = n => ["largest", "second-largest", "third-largest", "fourth-largest", "fifth-largest"][n] || (n + 1) + "th-largest";
+const plural = (n, w) => n + " " + w + (n === 1 ? "" : "s");
+const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+/* one tooltip for every chart: value leads, label follows; same on hover and keyboard focus */
+const tip = $("#tip");
+function showTip(target, x, y) {
+  tip.replaceChildren();
+  const d = target._tip; if (!d) return;
+  tip.append(el("b", null, d.value)); tip.append(el("div", null, d.label));
+  (d.rows || []).forEach(r => { const k = el("div", "k"); const i = el("i", r.on ? "on" : ""); const s = el("strong", null, r.value); k.append(i, s, document.createTextNode(" " + r.name)); tip.append(k) });
+  tip.classList.add("show");
+  const w = tip.offsetWidth, h = tip.offsetHeight;
+  tip.style.left = Math.max(8, Math.min(innerWidth - w - 8, x + 14)) + "px";
+  tip.style.top = Math.max(8, (y + h + 24 > innerHeight ? y - h - 12 : y + 16)) + "px";
+}
+const hideTip = () => tip.classList.remove("show");
+function bindTip(node, data) {
+  node._tip = data; node.tabIndex = 0;
+  node.setAttribute("aria-label", [data.label, data.value, ...(data.rows || []).map(r => r.value + " " + r.name)].join(", "));
+  node.addEventListener("pointermove", e => showTip(node, e.clientX, e.clientY));
+  node.addEventListener("pointerleave", hideTip);
+  node.addEventListener("focus", () => { const r = node.getBoundingClientRect(); showTip(node, r.left + Math.min(r.width / 2, 240), r.top + r.height - 8) });
+  node.addEventListener("blur", hideTip);
+}
+addEventListener("scroll", hideTip, { passive: true });
+
+/* a ranked horizontal bar row; segs = [{value, on}] drawn from the baseline with a 2px surface gap */
+function barRow({ label, segs, max, valueText, small, on, tipData }) {
+  const row = el("div", "row" + (on ? " on" : "")); row.setAttribute("role", "listitem");
+  const rb = el("span", "rb");
+  const drawn = segs.filter(s => s.value > 0);
+  drawn.forEach((s, i) => {
+    const b = el("i", (s.on ? "on" : "") + (i === drawn.length - 1 ? " end" : ""));
+    const w = `calc((100% - var(--reserve, 96px)) * ${s.value / max})`;
+    if (reduce) b.style.width = w; else { b.style.width = "0"; requestAnimationFrame(() => requestAnimationFrame(() => b.style.width = w)) }
+    rb.append(b);
+  });
+  const rv = el("span", "rv", valueText); if (small) rv.append(document.createTextNode(" "), el("small", null, small));
+  rb.append(rv); row.append(el("span", "rl", label), rb); bindTip(row, tipData); return row;
+}
+function tableView(node, head, rows) {
+  node.replaceChildren();
+  const tr = el("tr"); head.forEach((h, i) => tr.append(el("th", i ? "num" : "", h))); const th = el("thead"); th.append(tr);
+  const tb = el("tbody"); rows.forEach(r => { const t = el("tr"); r.forEach((c, i) => t.append(el("td", i ? "num" : "", String(c)))); tb.append(t) });
+  node.append(th, tb);
+}
+const money = s => { if (!s || !s.min) return ""; const sym = { USD: "$", GBP: "£", EUR: "€" }[s.currency] || (s.currency ? s.currency + " " : ""); const k = v => Math.round(v / 1000) + "K"; return sym + k(s.min) + (s.max && s.max !== s.min ? " to " + sym + k(s.max) : "") };
+const dateText = iso => new Date(iso).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" });
+
+async function main() {
+  let data, hist;
+  try {
+    [data, hist] = await Promise.all([fetch("data/jobs.json").then(r => r.json()), fetch("data/history.json").then(r => r.json())]);
+  } catch (e) {
+    const b = $("#err"); b.style.display = "block"; b.textContent = "The job data could not be loaded. Please try again in a moment."; return;
+  }
+  const all = data.jobs.filter(j => j.category !== "General application");
+  const core = all.filter(j => j.group !== "Frontier lab"), labs = all.filter(j => j.group === "Frontier lab");
+  const ops = core.filter(j => j.category === "Operations");
+  const orgNames = [...new Set(core.map(j => j.org))];
+  const N = core.length, M = orgNames.length;
+
+  /* hero + stat tiles */
+  $("#heroV").textContent = N.toLocaleString("en");
+  $("#heroL").textContent = `roles open at ${M} AI safety organisations`;
+  $("#heroU").textContent = "Updated " + dateText(data.updated);
+  $("#lede").textContent = `${N} roles are open right now at ${M} AI safety organisations. ${ops.length} of them are operations jobs: the people who hire, pay, plan and keep a research team running.`;
+  const opsDays = ops.map(j => j.days_open).filter(d => d != null), opsMed = median(opsDays);
+  const opsOrgs = new Set(ops.map(j => j.org)).size, ops90 = opsDays.filter(d => d >= 90).length;
+  [["Operations roles open", ops.length, pct(ops.length, N) + "% of all open roles"],
+   ["Median days an operations role has been open", opsMed == null ? "–" : Math.round(opsMed), "half have waited longer"],
+   ["Organisations hiring for operations", opsOrgs, "of " + M + " tracked"],
+   ["Operations roles open 90 days or more", ops90, "of " + ops.length + " operations roles"]].forEach(([l, v, s]) => {
+    const t = el("div", "tile"); t.append(el("div", "l", l), el("div", "v", String(v)), el("div", "s", s)); $("#tiles").append(t);
+  });
+
+  /* 1. kinds of work: ranked bars, operations emphasised */
+  const byCat = {}; core.forEach(j => (byCat[j.category] ??= []).push(j));
+  const cats = Object.keys(byCat).sort((a, b) => (a === "Other") - (b === "Other") || byCat[b].length - byCat[a].length);
+  const maxCat = Math.max(...cats.map(c => byCat[c].length));
+  cats.forEach(c => $("#c-kinds").append(barRow({ label: c, segs: [{ value: byCat[c].length, on: c === "Operations" }], max: maxCat, valueText: String(byCat[c].length), on: c === "Operations",
+    tipData: { value: plural(byCat[c].length, "role"), label: `${c}: ${pct(byCat[c].length, N)}% of open roles` } })));
+  tableView($("#tv-kinds"), ["Kind of work", "Open roles", "Share"], cats.map(c => [c, byCat[c].length, pct(byCat[c].length, N) + "%"]));
+  const rank = cats.filter(c => c !== "Other").indexOf("Operations"), top = cats[0];
+  const fk = $("#f-kinds");
+  fk.append(document.createTextNode("Operations is the "), el("b", null, ordinal(rank) + " group"), document.createTextNode(`, with ${ops.length} of ${N} open roles (${pct(ops.length, N)}%). `));
+  if (top !== "Operations") fk.append(document.createTextNode(`${top} has ${byCat[top].length}. `));
+  if (pct(ops.length, N) >= 15) fk.append(document.createTextNode("A large share of the demand is for people who can run an organisation."));
+
+  /* 2. median days open */
+  const dcat = cats.filter(c => c !== "Other" && byCat[c].length >= 5).map(c => ({ c, d: byCat[c].map(j => j.days_open).filter(x => x != null) })).filter(x => x.d.length).map(x => ({ ...x, m: median(x.d) })).sort((a, b) => b.m - a.m);
+  const maxD = Math.max(...dcat.map(x => x.m));
+  dcat.forEach(x => $("#c-days").append(barRow({ label: x.c, segs: [{ value: x.m, on: x.c === "Operations" }], max: maxD, valueText: Math.round(x.m) + " days", on: x.c === "Operations",
+    tipData: { value: Math.round(x.m) + " days", label: `${x.c}: median across ${plural(x.d.length, "open role")}. ${x.d.filter(v => v >= 90).length} open 90 days or more.` } })));
+  tableView($("#tv-days"), ["Kind of work", "Median days open", "Open 90+ days", "Roles"], dcat.map(x => [x.c, Math.round(x.m), x.d.filter(v => v >= 90).length, x.d.length]));
+  const fd = $("#f-days");
+  if (opsMed != null) fd.append(document.createTextNode("Half of the open operations roles have been advertised for more than "), el("b", null, Math.round(opsMed) + " days"), document.createTextNode(`. ${ops90} of the ${ops.length} have been open for three months or longer.`));
+
+  /* 3. operations skills: meter list */
+  const sk = {}; ops.forEach(j => j.skills.forEach(s => sk[s] = (sk[s] || 0) + 1));
+  const skills = Object.entries(sk).sort((a, b) => b[1] - a[1]);
+  $("#s-skills").textContent = `Based on the ${ops.length} operations adverts open today.`;
+  skills.forEach(([name, n]) => {
+    const row = el("div", "row meter"); row.setAttribute("role", "listitem");
+    const rb = el("span", "rb"), b = el("i"); const w = (100 * n / ops.length) + "%";
+    if (reduce) b.style.width = w; else { b.style.width = "0"; requestAnimationFrame(() => requestAnimationFrame(() => b.style.width = w)) }
+    rb.append(b); row.append(el("span", "rl", name), rb, el("span", "rv", `${n} of ${ops.length}`));
+    bindTip(row, { value: pct(n, ops.length) + "%", label: `${name}: mentioned in ${n} of ${ops.length} operations adverts` }); $("#c-skills").append(row);
+  });
+  tableView($("#tv-skills"), ["Area", "Adverts", "Share"], skills.map(([s, n]) => [s, n, pct(n, ops.length) + "%"]));
+  if (skills.length >= 3) $("#f-skills").append(document.createTextNode("The three areas that come up most are "), el("b", null, skills[0][0].toLowerCase()), document.createTextNode(", "), el("b", null, skills[1][0].toLowerCase()), document.createTextNode(" and "), el("b", null, skills[2][0].toLowerCase()), document.createTextNode(". Operations in a small research organisation is broad: one person often covers several of these."));
+
+  /* 4. who is hiring: stacked bars, operations + everything else, one shared scale */
+  const orgRows = list => { const m = {}; list.forEach(j => { (m[j.org] ??= { org: j.org, total: 0, ops: 0 }); m[j.org].total++; if (j.category === "Operations") m[j.org].ops++ }); return Object.values(m).sort((a, b) => b.total - a.total) };
+  const oCore = orgRows(core), oLabs = orgRows(labs);
+  const orgBar = (o, max) => barRow({ label: o.org.replace(" (safety and policy teams)", ""), segs: [{ value: o.ops, on: true }, { value: o.total - o.ops }], max, valueText: String(o.total), small: o.ops ? `(${o.ops} in operations)` : "",
+    tipData: { value: plural(o.total, "open role"), label: o.org.replace(" (safety and policy teams)", ""), rows: [{ on: true, value: String(o.ops), name: "operations" }, { value: String(o.total - o.ops), name: "all other roles" }] } });
+  oCore.forEach(o => $("#c-orgs").append(orgBar(o, oCore[0].total)));
+  tableView($("#tv-orgs"), ["Organisation", "Open roles", "Operations"], oCore.map(o => [o.org, o.total, o.ops]));
+  if (oLabs.length) { oLabs.forEach(o => $("#c-labs").append(orgBar(o, oLabs[0].total))); tableView($("#tv-labs"), ["Lab", "Open roles", "Operations"], oLabs.map(o => [o.org, o.total, o.ops])) }
+  else $("#c-labs").closest("figure").hidden = true;
+  const topOps = [...oCore].sort((a, b) => b.ops - a.ops).filter(o => o.ops).slice(0, 3);
+  if (topOps.length) $("#f-orgs").textContent = `${opsOrgs} of the ${M} organisations have at least one operations role open. The most are at ${topOps.map(o => `${o.org} (${o.ops})`).join(", ")}.`;
+  $("#m-orgs").textContent = "Organisations read today: " + data.orgs.map(o => o.name).join(", ") + "." + (data.failed && data.failed.length ? " Could not be read today: " + data.failed.map(f => f.split(":")[0]).join(", ") + "." : "");
+
+  /* 5. trend over time */
+  drawTrend(hist);
+
+  /* 6. browse */
+  const fc = $("#f-cat"), fo = $("#f-org");
+  fc.append(new Option("All kinds", ""));
+  [...new Set(all.map(j => j.category))].sort((a, b) => (a === "Other") - (b === "Other") || a.localeCompare(b)).forEach(c => fc.append(new Option(c, c)));
+  fc.value = "Operations";
+  fo.append(new Option("All organisations", "")); [...new Set(all.map(j => j.org))].sort().forEach(o => fo.append(new Option(o, o)));
+  let shown = 30;
+  const render = () => {
+    const q = $("#f-q").value.trim().toLowerCase(), labsOn = $("#f-labs").checked || (fo.value && all.find(j => j.org === fo.value)?.group === "Frontier lab");
+    let rows = all.filter(j => (labsOn || j.group !== "Frontier lab") && (!fc.value || j.category === fc.value) && (!fo.value || j.org === fo.value) && (!$("#f-remote").checked || j.remote) && (!q || (j.title + " " + j.location + " " + j.org).toLowerCase().includes(q)));
+    const s = $("#f-sort").value;
+    rows.sort(s === "org" ? (a, b) => a.org.localeCompare(b.org) || a.title.localeCompare(b.title) : s === "new" ? (a, b) => (a.days_open ?? 1e9) - (b.days_open ?? 1e9) : (a, b) => (b.days_open ?? -1) - (a.days_open ?? -1));
+    $("#count").textContent = rows.length ? plural(rows.length, "role") + (rows.length > shown ? `, showing the first ${shown}` : "") : "No roles match these filters. Try a different kind of work or clear the search.";
+    const tb = $("#jobs tbody"); tb.replaceChildren();
+    rows.slice(0, shown).forEach(j => {
+      const tr = el("tr"), a = el("a", null, j.title); a.href = j.url; a.target = "_blank"; a.rel = "noopener";
+      const t1 = el("td"); t1.append(a);
+      const t3 = el("td"); t3.append(el("span", "pill" + (j.category === "Operations" ? " on" : ""), j.category));
+      const t5 = el("td", "num", j.days_open == null ? "" : String(j.days_open)); t5.dataset.l = "Days open";
+      const t6 = el("td", "num", money(j.salary)); t6.dataset.l = "Salary";
+      tr.append(t1, el("td", null, j.org), t3, el("td", null, j.location + (j.remote && !/remote/i.test(j.location) ? " (remote possible)" : "")), t5, t6); tb.append(tr);
+    });
+    $("#more").hidden = rows.length <= shown;
+  };
+  ["f-cat", "f-org", "f-sort", "f-remote", "f-labs"].forEach(id => $("#" + id).addEventListener("change", () => { shown = 30; render() }));
+  $("#f-q").addEventListener("input", () => { shown = 30; render() });
+  $("#more").addEventListener("click", () => { shown += 30; render() });
+  render();
+}
+
+/* line chart of daily counts: one axis, two lines, crosshair that snaps to the nearest day */
+function drawTrend(hist) {
+  const days = Object.keys(hist.days || {}).sort(), box = $("#c-trend");
+  if (days.length < 7) {
+    const e = el("div", "empty"); e.append(el("b", null, "This chart starts filling in now"), document.createTextNode(`The tracker saves one count a day. It has ${plural(days.length, "day")} so far, and the line appears once it has a week.`));
+    box.replaceChildren(e); return;
+  }
+  const tot = days.map(d => hist.days[d].total), op = days.map(d => hist.days[d].Operations || 0);
+  $("#d-trend").hidden = false;
+  tableView($("#tv-trend"), ["Day", "All roles", "Operations"], days.map((d, i) => [dateText(d), tot[i], op[i]]).reverse());
+  const NS = "http://www.w3.org/2000/svg", S = (t, a) => { const n = document.createElementNS(NS, t); for (const k in a) n.setAttribute(k, a[k]); return n };
+  const draw = () => {
+    const W = Math.max(320, box.clientWidth), H = 280, L = 40, R = W < 560 ? 76 : 132, T = 14, B = 34;
+    const step = Math.pow(10, Math.floor(Math.log10(Math.max(...tot)))) / 2, top = Math.ceil(Math.max(...tot) * 1.08 / step) * step;
+    const x = i => L + (W - L - R) * i / (days.length - 1), y = v => T + (H - T - B) * (1 - v / top);
+    const svg = S("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": `Open roles over ${days.length} days. All roles: ${tot.at(-1)} today. Operations: ${op.at(-1)} today.` });
+    for (let v = 0; v <= top + 1e-9; v += step) { svg.append(S("line", { class: v ? "grid" : "axis", x1: L, x2: W - R, y1: y(v), y2: y(v) })); const t = S("text", { x: L - 8, y: y(v) + 4, "text-anchor": "end" }); t.textContent = v; svg.append(t) }
+    [0, Math.floor((days.length - 1) / 2), days.length - 1].forEach((i, k) => { const t = S("text", { x: x(i), y: H - 10, "text-anchor": k === 0 ? "start" : k === 2 ? "end" : "middle" }); t.textContent = new Date(days[i]).toLocaleDateString("en-GB", { day: "numeric", month: "short" }); svg.append(t) });
+    const path = a => a.map((v, i) => (i ? "L" : "M") + x(i).toFixed(1) + " " + y(v).toFixed(1)).join(" ");
+    [[tot, "#77739A", "All roles"], [op, "#44A860", "Operations"]].forEach(([a, c, name]) => {
+      svg.append(S("path", { d: path(a), fill: "none", stroke: c, "stroke-width": 2, "stroke-linejoin": "round", "stroke-linecap": "round" }));
+      svg.append(S("circle", { cx: x(a.length - 1), cy: y(a.at(-1)), r: 5, fill: c, stroke: "#16132B", "stroke-width": 2 }));
+      const t = S("text", { class: "endl", x: x(a.length - 1) + 12, y: y(a.at(-1)) + 4 }); t.textContent = (W < 560 ? "" : name + " ") + a.at(-1); svg.append(t);
+    });
+    const cross = S("line", { class: "axis", y1: T, y2: H - B, x1: 0, x2: 0, visibility: "hidden" }), dots = [S("circle", { r: 5, fill: "#77739A", stroke: "#16132B", "stroke-width": 2, visibility: "hidden" }), S("circle", { r: 5, fill: "#44A860", stroke: "#16132B", "stroke-width": 2, visibility: "hidden" })];
+    const hit = S("rect", { x: L, y: T, width: W - L - R, height: H - T - B, fill: "transparent", tabindex: 0, "aria-label": "Daily counts. Use the left and right arrow keys to move between days." });
+    let cur = days.length - 1;
+    const at = (i, cx, cy) => { cur = i; cross.setAttribute("x1", x(i)); cross.setAttribute("x2", x(i)); cross.setAttribute("visibility", "visible");
+      [tot, op].forEach((a, k) => { dots[k].setAttribute("cx", x(i)); dots[k].setAttribute("cy", y(a[i])); dots[k].setAttribute("visibility", "visible") });
+      hit._tip = { value: dateText(days[i]), label: "Open roles that day", rows: [{ value: String(tot[i]), name: "all roles" }, { on: true, value: String(op[i]), name: "operations" }] }; showTip(hit, cx, cy) };
+    const off = () => { cross.setAttribute("visibility", "hidden"); dots.forEach(d => d.setAttribute("visibility", "hidden")); hideTip() };
+    hit.addEventListener("pointermove", e => { const r = svg.getBoundingClientRect(), px = (e.clientX - r.left) * W / r.width; at(Math.max(0, Math.min(days.length - 1, Math.round((px - L) / (W - L - R) * (days.length - 1)))), e.clientX, e.clientY) });
+    hit.addEventListener("pointerleave", off);
+    const kb = () => { const r = svg.getBoundingClientRect(); at(cur, r.left + x(cur) * r.width / W, r.top + 40) };
+    hit.addEventListener("focus", kb); hit.addEventListener("blur", off);
+    hit.addEventListener("keydown", e => { if (e.key === "ArrowLeft" || e.key === "ArrowRight") { e.preventDefault(); cur = Math.max(0, Math.min(days.length - 1, cur + (e.key === "ArrowLeft" ? -1 : 1))); kb() } });
+    svg.append(cross, ...dots, hit);
+    const lg = el("div", "legend"); lg.setAttribute("aria-hidden", "true");
+    [["", "All roles"], ["on", "Operations"]].forEach(([c, n]) => { const s = el("span"); s.append(el("i", "ln " + c), document.createTextNode(n)); lg.append(s) });
+    box.replaceChildren(lg, svg);
+  };
+  let lastW = 0; const redraw = () => { if (box.clientWidth !== lastW) { lastW = box.clientWidth; draw() } };
+  redraw(); new ResizeObserver(redraw).observe(box);
+}
+main();
+</script>
+</body>
+</html>
