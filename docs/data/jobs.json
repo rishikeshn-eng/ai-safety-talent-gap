@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T09:33:03.303727+00:00",
+ "updated": "2026-11-18T08:52:13.459729+00:00",
  "failed": [],
  "orgs": [
   {
@@ -96,7 +96,7 @@
    "org": "AIUC",
    "group": "Safety-focused company",
    "category": "Engineering",
-   "days_open": 91,
+   "days_open": 92,
    "skills": [],
    "words": 560
   },
@@ -116,7 +116,7 @@
    "org": "AIUC",
    "group": "Safety-focused company",
    "category": "Other",
-   "days_open": 102,
+   "days_open": 103,
    "skills": [],
    "words": 760
   },
@@ -136,7 +136,7 @@
    "org": "AIUC",
    "group": "Safety-focused company",
    "category": "Sales and partnerships",
-   "days_open": 209,
+   "days_open": 210,
    "skills": [],
    "words": 619
   },
@@ -156,7 +156,7 @@
    "org": "AIUC",
    "group": "Safety-focused company",
    "category": "Sales and partnerships",
-   "days_open": 210,
+   "days_open": 211,
    "skills": [],
    "words": 586
   },
@@ -176,7 +176,7 @@
    "org": "AIUC",
    "group": "Safety-focused company",
    "category": "Operations",
-   "days_open": 122,
+   "days_open": 123,
    "skills": [
     "Building processes and systems",
     "Finance and budgeting",
@@ -197,7 +197,7 @@
    "org": "AIUC",
    "group": "Safety-focused company",
    "category": "General application",
-   "days_open": 11,
+   "days_open": 12,
    "skills": [],
    "words": 269
   },
@@ -217,7 +217,7 @@
    "org": "AIUC",
    "group": "Safety-focused company",
    "category": "Engineering",
-   "days_open": 80,
+   "days_open": 81,
    "skills": [],
    "words": 768
   },
@@ -233,7 +233,7 @@
    "org": "AIUC",
    "group": "Safety-focused company",
    "category": "Product",
-   "days_open": 25,
+   "days_open": 26,
    "skills": [],
    "words": 567
   },
@@ -253,7 +253,7 @@
    "org": "AIUC",
    "group": "Safety-focused company",
    "category": "Engineering",
-   "days_open": 21,
+   "days_open": 22,
    "skills": [],
    "words": 755
   },
@@ -273,9 +273,28 @@
    "org": "AIUC",
    "group": "Safety-focused company",
    "category": "Communications",
-   "days_open": 5,
+   "days_open": 6,
    "skills": [],
    "words": 424
+  },
+  {
+   "id": "ab-aiuc-a1a845f7-d7b6-4de4-ba40-928d33f2338b",
+   "title": "Member of Founder's Office",
+   "url": "https://jobs.ashbyhq.com/aiuc/a1a845f7-d7b6-4de4-ba40-928d33f2338b",
+   "location": "San Francisco",
+   "team": "Operations",
+   "published": "2026-11-17T18:49:01.585000+00:00",
+   "salary": null,
+   "remote": false,
+   "org": "AIUC",
+   "group": "Safety-focused company",
+   "category": "Operations",
+   "days_open": 0,
+   "skills": [
+    "People and HR",
+    "Working with stakeholders"
+   ],
+   "words": 564
   },
   {
    "id": "ab-aiuc-2816bb05-2a1f-4600-8780-deb152ac11ad",
@@ -293,7 +312,7 @@
    "org": "AIUC",
    "group": "Safety-focused company",
    "category": "Engineering",
-   "days_open": 208,
+   "days_open": 209,
    "skills": [],
    "words": 363
   },
@@ -313,7 +332,7 @@
    "org": "AIUC",
    "group": "Safety-focused company",
    "category": "Engineering",
-   "days_open": 14,
+   "days_open": 15,
    "skills": [],
    "words": 671
   },
@@ -333,7 +352,7 @@
    "org": "AIUC",
    "group": "Safety-focused company",
    "category": "Sales and partnerships",
-   "days_open": 1,
+   "days_open": 2,
    "skills": [],
    "words": 494
   },
@@ -353,7 +372,7 @@
    "org": "AIUC",
    "group": "Safety-focused company",
    "category": "Operations",
-   "days_open": 48,
+   "days_open": 49,
    "skills": [
     "Building processes and systems",
     "Finance and budgeting",
@@ -381,7 +400,7 @@
    "org": "AIUC",
    "group": "Safety-focused company",
    "category": "Research",
-   "days_open": 61,
+   "days_open": 62,
    "skills": [],
    "words": 726
   },
@@ -401,7 +420,7 @@
    "org": "AIUC",
    "group": "Safety-focused company",
    "category": "Operations",
-   "days_open": 27,
+   "days_open": 28,
    "skills": [
     "Building processes and systems",
     "Finance and budgeting",
@@ -427,7 +446,7 @@
    "org": "AIUC",
    "group": "Safety-focused company",
    "category": "Operations",
-   "days_open": 160,
+   "days_open": 161,
    "skills": [
     "Building processes and systems",
     "Hiring and recruiting",
@@ -451,7 +470,7 @@
    "org": "AIUC",
    "group": "Safety-focused company",
    "category": "Operations",
-   "days_open": 13,
+   "days_open": 14,
    "skills": [
     "Building processes and systems",
     "Hiring and recruiting",
@@ -475,7 +494,7 @@
    "org": "AIUC",
    "group": "Safety-focused company",
    "category": "Sales and partnerships",
-   "days_open": 49,
+   "days_open": 50,
    "skills": [],
    "words": 679
   },
@@ -495,7 +514,7 @@
    "org": "AIUC",
    "group": "Safety-focused company",
    "category": "General application",
-   "days_open": 214,
+   "days_open": 215,
    "skills": [],
    "words": 262
   },
@@ -511,7 +530,7 @@
    "org": "Anthropic (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Research",
-   "days_open": 221,
+   "days_open": 222,
    "skills": [],
    "words": 1907
   },
@@ -527,7 +546,7 @@
    "org": "Anthropic (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Policy and governance",
-   "days_open": 207,
+   "days_open": 208,
    "skills": [],
    "words": 1510
   },
@@ -543,7 +562,7 @@
    "org": "Anthropic (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Policy and governance",
-   "days_open": 10,
+   "days_open": 11,
    "skills": [],
    "words": 1221
   },
@@ -559,7 +578,7 @@
    "org": "Anthropic (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Communications",
-   "days_open": 41,
+   "days_open": 42,
    "skills": [],
    "words": 1178
   },
@@ -575,7 +594,7 @@
    "org": "Anthropic (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Communications",
-   "days_open": 29,
+   "days_open": 30,
    "skills": [],
    "words": 1475
   },
@@ -591,7 +610,7 @@
    "org": "Anthropic (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Communications",
-   "days_open": 32,
+   "days_open": 33,
    "skills": [],
    "words": 1497
   },
@@ -607,7 +626,7 @@
    "org": "Anthropic (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Communications",
-   "days_open": 31,
+   "days_open": 32,
    "skills": [],
    "words": 1558
   },
@@ -623,7 +642,7 @@
    "org": "Anthropic (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Communications",
-   "days_open": 32,
+   "days_open": 33,
    "skills": [],
    "words": 1508
   },
@@ -639,7 +658,7 @@
    "org": "Anthropic (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Communications",
-   "days_open": 89,
+   "days_open": 90,
    "skills": [],
    "words": 1420
   },
@@ -655,7 +674,7 @@
    "org": "Anthropic (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Communications",
-   "days_open": 32,
+   "days_open": 33,
    "skills": [],
    "words": 1506
   },
@@ -671,7 +690,7 @@
    "org": "Anthropic (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Communications",
-   "days_open": 89,
+   "days_open": 90,
    "skills": [],
    "words": 1380
   },
@@ -687,7 +706,7 @@
    "org": "Anthropic (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Engineering",
-   "days_open": 76,
+   "days_open": 77,
    "skills": [],
    "words": 1019
   },
@@ -703,7 +722,7 @@
    "org": "Anthropic (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Research",
-   "days_open": 167,
+   "days_open": 168,
    "skills": [],
    "words": 1078
   },
@@ -719,7 +738,7 @@
    "org": "Anthropic (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Policy and governance",
-   "days_open": 53,
+   "days_open": 54,
    "skills": [],
    "words": 1200
   },
@@ -735,7 +754,7 @@
    "org": "Anthropic (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Research",
-   "days_open": 23,
+   "days_open": 24,
    "skills": [],
    "words": 1311
   },
@@ -751,7 +770,7 @@
    "org": "Anthropic (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Engineering",
-   "days_open": 17,
+   "days_open": 18,
    "skills": [],
    "words": 1571
   },
@@ -767,7 +786,7 @@
    "org": "Anthropic (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Engineering",
-   "days_open": 159,
+   "days_open": 160,
    "skills": [],
    "words": 1234
   },
@@ -783,7 +802,7 @@
    "org": "Anthropic (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Other",
-   "days_open": 66,
+   "days_open": 67,
    "skills": [],
    "words": 1232
   },
@@ -799,7 +818,7 @@
    "org": "Anthropic (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Other",
-   "days_open": 4,
+   "days_open": 5,
    "skills": [],
    "words": 1235
   },
@@ -815,7 +834,7 @@
    "org": "Anthropic (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Other",
-   "days_open": 24,
+   "days_open": 25,
    "skills": [],
    "words": 1381
   },
@@ -831,7 +850,7 @@
    "org": "Anthropic (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Research",
-   "days_open": 403,
+   "days_open": 404,
    "skills": [],
    "words": 1007
   },
@@ -847,7 +866,7 @@
    "org": "Anthropic (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Research",
-   "days_open": 118,
+   "days_open": 119,
    "skills": [],
    "words": 1157
   },
@@ -863,7 +882,7 @@
    "org": "Anthropic (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Engineering",
-   "days_open": 8,
+   "days_open": 9,
    "skills": [],
    "words": 1064
   },
@@ -879,7 +898,7 @@
    "org": "Anthropic (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Policy and governance",
-   "days_open": 48,
+   "days_open": 49,
    "skills": [],
    "words": 1362
   },
@@ -895,7 +914,7 @@
    "org": "Anthropic (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Policy and governance",
-   "days_open": 41,
+   "days_open": 42,
    "skills": [],
    "words": 1395
   },
@@ -911,7 +930,7 @@
    "org": "Anthropic (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Policy and governance",
-   "days_open": 87,
+   "days_open": 88,
    "skills": [],
    "words": 1214
   },
@@ -927,7 +946,7 @@
    "org": "Anthropic (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Policy and governance",
-   "days_open": 31,
+   "days_open": 32,
    "skills": [],
    "words": 1501
   },
@@ -943,7 +962,7 @@
    "org": "Anthropic (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Policy and governance",
-   "days_open": 34,
+   "days_open": 35,
    "skills": [],
    "words": 1086
   },
@@ -959,7 +978,7 @@
    "org": "Anthropic (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Operations",
-   "days_open": 28,
+   "days_open": 29,
    "skills": [
     "Legal and compliance",
     "Project management",
@@ -981,7 +1000,7 @@
    "org": "Anthropic (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Communications",
-   "days_open": 52,
+   "days_open": 53,
    "skills": [],
    "words": 1108
   },
@@ -997,7 +1016,7 @@
    "org": "Anthropic (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Operations",
-   "days_open": 56,
+   "days_open": 57,
    "skills": [
     "Building processes and systems",
     "Events and logistics",
@@ -1019,7 +1038,7 @@
    "org": "Anthropic (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Operations",
-   "days_open": 45,
+   "days_open": 46,
    "skills": [
     "Building processes and systems",
     "Legal and compliance",
@@ -1041,7 +1060,7 @@
    "org": "Anthropic (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Policy and governance",
-   "days_open": 11,
+   "days_open": 12,
    "skills": [],
    "words": 1570
   },
@@ -1057,7 +1076,7 @@
    "org": "Anthropic (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Operations",
-   "days_open": 34,
+   "days_open": 35,
    "skills": [
     "Hiring and recruiting",
     "Events and logistics",
@@ -1079,7 +1098,7 @@
    "org": "Anthropic (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Engineering",
-   "days_open": 129,
+   "days_open": 130,
    "skills": [],
    "words": 1121
   },
@@ -1095,7 +1114,7 @@
    "org": "Anthropic (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Research",
-   "days_open": 581,
+   "days_open": 582,
    "skills": [],
    "words": 1250
   },
@@ -1111,7 +1130,7 @@
    "org": "Anthropic (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Research",
-   "days_open": 0,
+   "days_open": 1,
    "skills": [],
    "words": 1279
   },
@@ -1127,7 +1146,7 @@
    "org": "Anthropic (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Research",
-   "days_open": 374,
+   "days_open": 375,
    "skills": [],
    "words": 1397
   },
@@ -1143,7 +1162,7 @@
    "org": "Anthropic (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Research",
-   "days_open": 76,
+   "days_open": 77,
    "skills": [],
    "words": 1458
   },
@@ -1159,7 +1178,7 @@
    "org": "Anthropic (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Research",
-   "days_open": 374,
+   "days_open": 375,
    "skills": [],
    "words": 1396
   },
@@ -1175,7 +1194,7 @@
    "org": "Anthropic (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Research",
-   "days_open": 307,
+   "days_open": 308,
    "skills": [],
    "words": 1309
   },
@@ -1191,7 +1210,7 @@
    "org": "Anthropic (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Research",
-   "days_open": 126,
+   "days_open": 127,
    "skills": [],
    "words": 1150
   },
@@ -1207,7 +1226,7 @@
    "org": "Anthropic (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Research",
-   "days_open": 126,
+   "days_open": 127,
    "skills": [],
    "words": 1194
   },
@@ -1223,7 +1242,7 @@
    "org": "Anthropic (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Research",
-   "days_open": 129,
+   "days_open": 130,
    "skills": [],
    "words": 1302
   },
@@ -1239,7 +1258,7 @@
    "org": "Anthropic (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Research",
-   "days_open": 76,
+   "days_open": 77,
    "skills": [],
    "words": 1252
   },
@@ -1255,7 +1274,7 @@
    "org": "Anthropic (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Research",
-   "days_open": 129,
+   "days_open": 130,
    "skills": [],
    "words": 1279
   },
@@ -1271,7 +1290,7 @@
    "org": "Anthropic (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Other",
-   "days_open": 76,
+   "days_open": 77,
    "skills": [],
    "words": 1287
   },
@@ -1287,7 +1306,7 @@
    "org": "Anthropic (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Engineering",
-   "days_open": 38,
+   "days_open": 39,
    "skills": [],
    "words": 1088
   },
@@ -1303,7 +1322,7 @@
    "org": "Anthropic (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Engineering",
-   "days_open": 54,
+   "days_open": 55,
    "skills": [],
    "words": 1145
   },
@@ -1319,7 +1338,7 @@
    "org": "Anthropic (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Engineering",
-   "days_open": 266,
+   "days_open": 267,
    "skills": [],
    "words": 1011
   },
@@ -1335,7 +1354,7 @@
    "org": "Anthropic (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Engineering",
-   "days_open": 49,
+   "days_open": 50,
    "skills": [],
    "words": 1187
   },
@@ -1351,7 +1370,7 @@
    "org": "Anthropic (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Engineering",
-   "days_open": 54,
+   "days_open": 55,
    "skills": [],
    "words": 959
   },
@@ -1367,7 +1386,7 @@
    "org": "Anthropic (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Engineering",
-   "days_open": 62,
+   "days_open": 63,
    "skills": [],
    "words": 1103
   },
@@ -1383,7 +1402,7 @@
    "org": "Anthropic (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Engineering",
-   "days_open": 68,
+   "days_open": 69,
    "skills": [],
    "words": 1151
   },
@@ -1399,7 +1418,7 @@
    "org": "Anthropic (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Engineering",
-   "days_open": 68,
+   "days_open": 69,
    "skills": [],
    "words": 1045
   },
@@ -1415,7 +1434,7 @@
    "org": "Anthropic (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Engineering",
-   "days_open": 129,
+   "days_open": 130,
    "skills": [],
    "words": 1127
   },
@@ -1431,7 +1450,7 @@
    "org": "Anthropic (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Engineering",
-   "days_open": 27,
+   "days_open": 28,
    "skills": [],
    "words": 1315
   },
@@ -1447,7 +1466,7 @@
    "org": "Anthropic (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Engineering",
-   "days_open": 398,
+   "days_open": 399,
    "skills": [],
    "words": 1021
   },
@@ -1463,7 +1482,7 @@
    "org": "Anthropic (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Engineering",
-   "days_open": 94,
+   "days_open": 95,
    "skills": [],
    "words": 1191
   },
@@ -1479,7 +1498,7 @@
    "org": "Anthropic (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Engineering",
-   "days_open": 7,
+   "days_open": 8,
    "skills": [],
    "words": 1243
   },
@@ -1495,7 +1514,7 @@
    "org": "Anthropic (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Engineering",
-   "days_open": 126,
+   "days_open": 127,
    "skills": [],
    "words": 1216
   },
@@ -1511,7 +1530,7 @@
    "org": "Anthropic (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Engineering",
-   "days_open": 299,
+   "days_open": 300,
    "skills": [],
    "words": 983
   },
@@ -1527,7 +1546,7 @@
    "org": "Anthropic (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Other",
-   "days_open": 49,
+   "days_open": 50,
    "skills": [],
    "words": 1448
   },
@@ -1543,7 +1562,7 @@
    "org": "Anthropic (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Other",
-   "days_open": 307,
+   "days_open": 308,
    "skills": [],
    "words": 1218
   },
@@ -1559,7 +1578,7 @@
    "org": "Anthropic (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Other",
-   "days_open": 307,
+   "days_open": 308,
    "skills": [],
    "words": 1161
   },
@@ -1575,7 +1594,7 @@
    "org": "Anthropic (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Operations",
-   "days_open": 26,
+   "days_open": 27,
    "skills": [
     "Building processes and systems",
     "Events and logistics",
@@ -1597,7 +1616,7 @@
    "org": "Anthropic (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Operations",
-   "days_open": 285,
+   "days_open": 286,
    "skills": [
     "Building processes and systems",
     "Events and logistics",
@@ -1619,7 +1638,7 @@
    "org": "Anthropic (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Other",
-   "days_open": 131,
+   "days_open": 132,
    "skills": [],
    "words": 1225
   },
@@ -1635,7 +1654,7 @@
    "org": "Anthropic (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Other",
-   "days_open": 131,
+   "days_open": 132,
    "skills": [],
    "words": 1361
   },
@@ -1651,7 +1670,7 @@
    "org": "Anthropic (safety and policy teams)",
    "group": "Frontier lab",
    "category": "General application",
-   "days_open": 595,
+   "days_open": 596,
    "skills": [],
    "words": 1175
   },
@@ -1667,7 +1686,7 @@
    "org": "Anthropic (safety and policy teams)",
    "group": "Frontier lab",
    "category": "General application",
-   "days_open": 374,
+   "days_open": 375,
    "skills": [],
    "words": 1602
   },
@@ -1683,7 +1702,7 @@
    "org": "Apollo Research",
    "group": "Research and evaluations",
    "category": "Research",
-   "days_open": 77,
+   "days_open": 78,
    "skills": [],
    "words": 1658
   },
@@ -1699,7 +1718,7 @@
    "org": "Apollo Research",
    "group": "Research and evaluations",
    "category": "Research",
-   "days_open": 80,
+   "days_open": 81,
    "skills": [],
    "words": 1295
   },
@@ -1719,7 +1738,7 @@
    "org": "Apollo Research",
    "group": "Research and evaluations",
    "category": "Operations",
-   "days_open": 53,
+   "days_open": 54,
    "skills": [
     "Building processes and systems",
     "Finance and budgeting",
@@ -1733,22 +1752,6 @@
    "words": 1705
   },
   {
-   "id": "lv-apolloresearch-2237ce81-cb8e-4f53-a047-e12ea5d6e7d8",
-   "title": "Forward Deployed Engineer (Product)",
-   "url": "https://jobs.lever.co/apolloresearch/2237ce81-cb8e-4f53-a047-e12ea5d6e7d8",
-   "location": "London & San Francisco",
-   "team": "Product",
-   "published": "2026-08-28T10:19:31.722000+00:00",
-   "salary": null,
-   "remote": false,
-   "org": "Apollo Research",
-   "group": "Research and evaluations",
-   "category": "Engineering",
-   "days_open": 80,
-   "skills": [],
-   "words": 1841
-  },
-  {
    "id": "lv-apolloresearch-008a594d-0b50-4f15-be9d-ad0a44767cb3",
    "title": "Founding Account Executive (Product - Watcher)",
    "url": "https://jobs.lever.co/apolloresearch/008a594d-0b50-4f15-be9d-ad0a44767cb3",
@@ -1760,25 +1763,9 @@
    "org": "Apollo Research",
    "group": "Research and evaluations",
    "category": "Sales and partnerships",
-   "days_open": 24,
+   "days_open": 25,
    "skills": [],
    "words": 1634
-  },
-  {
-   "id": "lv-apolloresearch-ab3051f4-d5be-4b46-9f54-eb14da1a6a54",
-   "title": "Full-stack Software Engineer (Product)",
-   "url": "https://jobs.lever.co/apolloresearch/ab3051f4-d5be-4b46-9f54-eb14da1a6a54",
-   "location": "London & San Francisco",
-   "team": "Product",
-   "published": "2026-08-28T08:40:40.938000+00:00",
-   "salary": null,
-   "remote": false,
-   "org": "Apollo Research",
-   "group": "Research and evaluations",
-   "category": "Engineering",
-   "days_open": 81,
-   "skills": [],
-   "words": 1713
   },
   {
    "id": "lv-apolloresearch-df8439d2-b43e-4136-94d9-d9071f9327a2",
@@ -1792,7 +1779,7 @@
    "org": "Apollo Research",
    "group": "Research and evaluations",
    "category": "Sales and partnerships",
-   "days_open": 24,
+   "days_open": 25,
    "skills": [],
    "words": 1603
   },
@@ -1808,7 +1795,7 @@
    "org": "Apollo Research",
    "group": "Research and evaluations",
    "category": "Research",
-   "days_open": 17,
+   "days_open": 18,
    "skills": [],
    "words": 1671
   },
@@ -1824,7 +1811,7 @@
    "org": "Apollo Research",
    "group": "Research and evaluations",
    "category": "Research",
-   "days_open": 77,
+   "days_open": 78,
    "skills": [],
    "words": 1389
   },
@@ -1840,7 +1827,7 @@
    "org": "Apollo Research",
    "group": "Research and evaluations",
    "category": "Research",
-   "days_open": 17,
+   "days_open": 18,
    "skills": [],
    "words": 1483
   },
@@ -1856,7 +1843,7 @@
    "org": "Apollo Research",
    "group": "Research and evaluations",
    "category": "Engineering",
-   "days_open": 80,
+   "days_open": 81,
    "skills": [],
    "words": 1378
   },
@@ -1872,7 +1859,7 @@
    "org": "BlueDot Impact",
    "group": "Field-building",
    "category": "General application",
-   "days_open": 290,
+   "days_open": 291,
    "skills": [],
    "words": 1
   },
@@ -1888,7 +1875,7 @@
    "org": "Coefficient Giving",
    "group": "Funder",
    "category": "General application",
-   "days_open": 1734,
+   "days_open": 1735,
    "skills": [],
    "words": 204
   },
@@ -1904,7 +1891,7 @@
    "org": "Eleos AI",
    "group": "Research and evaluations",
    "category": "Research",
-   "days_open": 171,
+   "days_open": 172,
    "skills": [],
    "words": 705
   },
@@ -1924,7 +1911,7 @@
    "org": "Epoch AI",
    "group": "Research and evaluations",
    "category": "Communications",
-   "days_open": 154,
+   "days_open": 155,
    "skills": [],
    "words": 861
   },
@@ -1940,7 +1927,7 @@
    "org": "Epoch AI",
    "group": "Research and evaluations",
    "category": "Communications",
-   "days_open": 196,
+   "days_open": 197,
    "skills": [],
    "words": 1030
   },
@@ -1956,7 +1943,7 @@
    "org": "Epoch AI",
    "group": "Research and evaluations",
    "category": "General application",
-   "days_open": 411,
+   "days_open": 412,
    "skills": [],
    "words": 439
   },
@@ -1972,7 +1959,7 @@
    "org": "Epoch AI",
    "group": "Research and evaluations",
    "category": "General application",
-   "days_open": 91,
+   "days_open": 92,
    "skills": [],
    "words": 940
   },
@@ -1988,7 +1975,7 @@
    "org": "Epoch AI",
    "group": "Research and evaluations",
    "category": "Product",
-   "days_open": 56,
+   "days_open": 57,
    "skills": [],
    "words": 999
   },
@@ -2004,7 +1991,7 @@
    "org": "Epoch AI",
    "group": "Research and evaluations",
    "category": "Research",
-   "days_open": 237,
+   "days_open": 238,
    "skills": [],
    "words": 1130
   },
@@ -2020,7 +2007,7 @@
    "org": "Epoch AI",
    "group": "Research and evaluations",
    "category": "Other",
-   "days_open": 89,
+   "days_open": 90,
    "skills": [],
    "words": 1016
   },
@@ -2040,7 +2027,7 @@
    "org": "FAR.AI",
    "group": "Research and evaluations",
    "category": "Operations",
-   "days_open": 146,
+   "days_open": 147,
    "skills": [
     "Building processes and systems",
     "Finance and budgeting",
@@ -2071,7 +2058,7 @@
    "org": "FAR.AI",
    "group": "Research and evaluations",
    "category": "Communications",
-   "days_open": 14,
+   "days_open": 15,
    "skills": [],
    "words": 1187
   },
@@ -2087,7 +2074,7 @@
    "org": "FAR.AI",
    "group": "Research and evaluations",
    "category": "General application",
-   "days_open": 577,
+   "days_open": 578,
    "skills": [],
    "words": 301
   },
@@ -2107,7 +2094,7 @@
    "org": "FAR.AI",
    "group": "Research and evaluations",
    "category": "Engineering",
-   "days_open": 5,
+   "days_open": 6,
    "skills": [],
    "words": 2584
   },
@@ -2127,7 +2114,7 @@
    "org": "FAR.AI",
    "group": "Research and evaluations",
    "category": "Operations",
-   "days_open": 66,
+   "days_open": 67,
    "skills": [
     "Building processes and systems",
     "Finance and budgeting",
@@ -2155,7 +2142,7 @@
    "org": "FAR.AI",
    "group": "Research and evaluations",
    "category": "Other",
-   "days_open": 187,
+   "days_open": 188,
    "skills": [],
    "words": 2143
   },
@@ -2175,7 +2162,7 @@
    "org": "FAR.AI",
    "group": "Research and evaluations",
    "category": "Research",
-   "days_open": 322,
+   "days_open": 323,
    "skills": [],
    "words": 1093
   },
@@ -2195,7 +2182,7 @@
    "org": "FAR.AI",
    "group": "Research and evaluations",
    "category": "Research",
-   "days_open": 40,
+   "days_open": 41,
    "skills": [],
    "words": 1876
   },
@@ -2215,7 +2202,7 @@
    "org": "FAR.AI",
    "group": "Research and evaluations",
    "category": "Research",
-   "days_open": 69,
+   "days_open": 70,
    "skills": [],
    "words": 1763
   },
@@ -2235,7 +2222,7 @@
    "org": "FAR.AI",
    "group": "Research and evaluations",
    "category": "Research",
-   "days_open": 606,
+   "days_open": 607,
    "skills": [],
    "words": 1061
   },
@@ -2255,7 +2242,7 @@
    "org": "FAR.AI",
    "group": "Research and evaluations",
    "category": "Research",
-   "days_open": 49,
+   "days_open": 50,
    "skills": [],
    "words": 1343
   },
@@ -2275,7 +2262,7 @@
    "org": "FAR.AI",
    "group": "Research and evaluations",
    "category": "Communications",
-   "days_open": 13,
+   "days_open": 14,
    "skills": [],
    "words": 894
   },
@@ -2295,7 +2282,7 @@
    "org": "FAR.AI",
    "group": "Research and evaluations",
    "category": "Operations",
-   "days_open": 143,
+   "days_open": 144,
    "skills": [
     "Building processes and systems",
     "Finance and budgeting",
@@ -2324,7 +2311,7 @@
    "org": "FAR.AI",
    "group": "Research and evaluations",
    "category": "Research",
-   "days_open": 12,
+   "days_open": 13,
    "skills": [],
    "words": 1041
   },
@@ -2344,7 +2331,7 @@
    "org": "FAR.AI",
    "group": "Research and evaluations",
    "category": "Research",
-   "days_open": 13,
+   "days_open": 14,
    "skills": [],
    "words": 1108
   },
@@ -2364,9 +2351,36 @@
    "org": "FAR.AI",
    "group": "Research and evaluations",
    "category": "Engineering",
-   "days_open": 38,
+   "days_open": 39,
    "skills": [],
    "words": 1378
+  },
+  {
+   "id": "ab-far.ai-856c9fc4-9994-4511-a062-6ce4b65428ec",
+   "title": "Senior Workplace Experience Coordinator",
+   "url": "https://jobs.ashbyhq.com/far.ai/856c9fc4-9994-4511-a062-6ce4b65428ec",
+   "location": "Berkeley Office",
+   "team": "Operations",
+   "published": "2026-11-17T18:02:27.440000+00:00",
+   "salary": {
+    "min": 90000,
+    "max": 110000,
+    "currency": "USD"
+   },
+   "remote": false,
+   "org": "FAR.AI",
+   "group": "Research and evaluations",
+   "category": "Operations",
+   "days_open": 0,
+   "skills": [
+    "Hiring and recruiting",
+    "People and HR",
+    "Events and logistics",
+    "Tools (Notion, Airtable, Asana)",
+    "Office and workplace",
+    "Clear writing"
+   ],
+   "words": 1050
   },
   {
    "id": "ab-far.ai-da27d5b5-a58a-40b3-84e7-b1da189ac6dd",
@@ -2384,7 +2398,7 @@
    "org": "FAR.AI",
    "group": "Research and evaluations",
    "category": "Operations",
-   "days_open": 56,
+   "days_open": 57,
    "skills": [
     "Building processes and systems",
     "Finance and budgeting",
@@ -2414,7 +2428,7 @@
    "org": "FAR.AI",
    "group": "Research and evaluations",
    "category": "Communications",
-   "days_open": 4,
+   "days_open": 5,
    "skills": [],
    "words": 1074
   },
@@ -2434,7 +2448,7 @@
    "org": "FAR.AI",
    "group": "Research and evaluations",
    "category": "Engineering",
-   "days_open": 38,
+   "days_open": 39,
    "skills": [],
    "words": 1477
   },
@@ -2454,7 +2468,7 @@
    "org": "FAR.AI",
    "group": "Research and evaluations",
    "category": "Operations",
-   "days_open": 119,
+   "days_open": 120,
    "skills": [
     "Building processes and systems",
     "Hiring and recruiting",
@@ -2477,7 +2491,7 @@
    "org": "Goodfire",
    "group": "Safety-focused company",
    "category": "Sales and partnerships",
-   "days_open": 144,
+   "days_open": 145,
    "skills": [],
    "words": 785
   },
@@ -2493,7 +2507,7 @@
    "org": "Goodfire",
    "group": "Safety-focused company",
    "category": "Operations",
-   "days_open": 304,
+   "days_open": 305,
    "skills": [
     "Hiring and recruiting",
     "Events and logistics",
@@ -2514,7 +2528,7 @@
    "org": "Goodfire",
    "group": "Safety-focused company",
    "category": "Operations",
-   "days_open": 668,
+   "days_open": 669,
    "skills": [
     "Hiring and recruiting",
     "Events and logistics",
@@ -2536,7 +2550,7 @@
    "org": "Goodfire",
    "group": "Safety-focused company",
    "category": "Other",
-   "days_open": 52,
+   "days_open": 53,
    "skills": [],
    "words": 664
   },
@@ -2552,7 +2566,7 @@
    "org": "Goodfire",
    "group": "Safety-focused company",
    "category": "Sales and partnerships",
-   "days_open": 216,
+   "days_open": 217,
    "skills": [],
    "words": 771
   },
@@ -2568,7 +2582,7 @@
    "org": "Goodfire",
    "group": "Safety-focused company",
    "category": "Operations",
-   "days_open": 111,
+   "days_open": 112,
    "skills": [
     "People and HR",
     "Events and logistics",
@@ -2589,7 +2603,7 @@
    "org": "Goodfire",
    "group": "Safety-focused company",
    "category": "Engineering",
-   "days_open": 216,
+   "days_open": 217,
    "skills": [],
    "words": 857
   },
@@ -2605,7 +2619,7 @@
    "org": "Goodfire",
    "group": "Safety-focused company",
    "category": "Research",
-   "days_open": 69,
+   "days_open": 70,
    "skills": [],
    "words": 658
   },
@@ -2621,7 +2635,7 @@
    "org": "Goodfire",
    "group": "Safety-focused company",
    "category": "Research",
-   "days_open": 426,
+   "days_open": 427,
    "skills": [],
    "words": 720
   },
@@ -2637,7 +2651,7 @@
    "org": "Goodfire",
    "group": "Safety-focused company",
    "category": "Operations",
-   "days_open": 160,
+   "days_open": 161,
    "skills": [
     "Building processes and systems",
     "Hiring and recruiting",
@@ -2658,7 +2672,7 @@
    "org": "Goodfire",
    "group": "Safety-focused company",
    "category": "General application",
-   "days_open": 824,
+   "days_open": 825,
    "skills": [],
    "words": 470
   },
@@ -2674,7 +2688,7 @@
    "org": "Goodfire",
    "group": "Safety-focused company",
    "category": "General application",
-   "days_open": 530,
+   "days_open": 531,
    "skills": [],
    "words": 513
   },
@@ -2690,7 +2704,7 @@
    "org": "Goodfire",
    "group": "Safety-focused company",
    "category": "Communications",
-   "days_open": 38,
+   "days_open": 39,
    "skills": [],
    "words": 707
   },
@@ -2706,7 +2720,7 @@
    "org": "Goodfire",
    "group": "Safety-focused company",
    "category": "Engineering",
-   "days_open": 306,
+   "days_open": 307,
    "skills": [],
    "words": 790
   },
@@ -2722,7 +2736,7 @@
    "org": "Goodfire",
    "group": "Safety-focused company",
    "category": "Operations",
-   "days_open": 83,
+   "days_open": 84,
    "skills": [
     "Building processes and systems",
     "Hiring and recruiting",
@@ -2743,7 +2757,7 @@
    "org": "Goodfire",
    "group": "Safety-focused company",
    "category": "Engineering",
-   "days_open": 347,
+   "days_open": 348,
    "skills": [],
    "words": 655
   },
@@ -2759,7 +2773,7 @@
    "org": "Goodfire",
    "group": "Safety-focused company",
    "category": "Operations",
-   "days_open": 68,
+   "days_open": 69,
    "skills": [
     "Building processes and systems",
     "People and HR",
@@ -2781,7 +2795,7 @@
    "org": "Goodfire",
    "group": "Safety-focused company",
    "category": "Engineering",
-   "days_open": 160,
+   "days_open": 161,
    "skills": [],
    "words": 741
   },
@@ -2797,7 +2811,7 @@
    "org": "Goodfire",
    "group": "Safety-focused company",
    "category": "Communications",
-   "days_open": 216,
+   "days_open": 217,
    "skills": [],
    "words": 846
   },
@@ -2813,7 +2827,7 @@
    "org": "Goodfire",
    "group": "Safety-focused company",
    "category": "Research",
-   "days_open": 668,
+   "days_open": 669,
    "skills": [],
    "words": 653
   },
@@ -2829,7 +2843,7 @@
    "org": "Goodfire",
    "group": "Safety-focused company",
    "category": "Research",
-   "days_open": 123,
+   "days_open": 124,
    "skills": [],
    "words": 689
   },
@@ -2845,7 +2859,7 @@
    "org": "Goodfire",
    "group": "Safety-focused company",
    "category": "Research",
-   "days_open": 532,
+   "days_open": 533,
    "skills": [],
    "words": 646
   },
@@ -2861,7 +2875,7 @@
    "org": "Goodfire",
    "group": "Safety-focused company",
    "category": "Research",
-   "days_open": 102,
+   "days_open": 103,
    "skills": [],
    "words": 653
   },
@@ -2877,7 +2891,7 @@
    "org": "Goodfire",
    "group": "Safety-focused company",
    "category": "Sales and partnerships",
-   "days_open": 160,
+   "days_open": 161,
    "skills": [],
    "words": 786
   },
@@ -2893,7 +2907,7 @@
    "org": "Goodfire",
    "group": "Safety-focused company",
    "category": "Engineering",
-   "days_open": 11,
+   "days_open": 12,
    "skills": [],
    "words": 707
   },
@@ -2909,7 +2923,7 @@
    "org": "Goodfire",
    "group": "Safety-focused company",
    "category": "Operations",
-   "days_open": 67,
+   "days_open": 68,
    "skills": [
     "Legal and compliance",
     "Grants and fundraising"
@@ -2928,7 +2942,7 @@
    "org": "Goodfire",
    "group": "Safety-focused company",
    "category": "Operations",
-   "days_open": 315,
+   "days_open": 316,
    "skills": [
     "Building processes and systems",
     "Hiring and recruiting",
@@ -2948,7 +2962,7 @@
    "org": "Goodfire",
    "group": "Safety-focused company",
    "category": "Operations",
-   "days_open": 160,
+   "days_open": 161,
    "skills": [
     "Finance and budgeting",
     "Events and logistics",
@@ -2971,7 +2985,7 @@
    "org": "Haize Labs",
    "group": "Safety-focused company",
    "category": "Research",
-   "days_open": 866,
+   "days_open": 867,
    "skills": [],
    "words": 283
   },
@@ -2987,7 +3001,7 @@
    "org": "Haize Labs",
    "group": "Safety-focused company",
    "category": "Product",
-   "days_open": 585,
+   "days_open": 586,
    "skills": [],
    "words": 261
   },
@@ -3003,7 +3017,7 @@
    "org": "Haize Labs",
    "group": "Safety-focused company",
    "category": "Research",
-   "days_open": 866,
+   "days_open": 867,
    "skills": [],
    "words": 476
   },
@@ -3019,7 +3033,7 @@
    "org": "Haize Labs",
    "group": "Safety-focused company",
    "category": "Engineering",
-   "days_open": 551,
+   "days_open": 552,
    "skills": [],
    "words": 418
   },
@@ -3035,7 +3049,7 @@
    "org": "Haize Labs",
    "group": "Safety-focused company",
    "category": "Engineering",
-   "days_open": 585,
+   "days_open": 586,
    "skills": [],
    "words": 630
   },
@@ -3051,7 +3065,7 @@
    "org": "Haize Labs",
    "group": "Safety-focused company",
    "category": "Other",
-   "days_open": 229,
+   "days_open": 230,
    "skills": [],
    "words": 438
   },
@@ -3067,7 +3081,7 @@
    "org": "Irregular",
    "group": "Safety-focused company",
    "category": "Research",
-   "days_open": 56,
+   "days_open": 57,
    "skills": [],
    "words": 269
   },
@@ -3083,7 +3097,7 @@
    "org": "Irregular",
    "group": "Safety-focused company",
    "category": "Research",
-   "days_open": 482,
+   "days_open": 483,
    "skills": [],
    "words": 371
   },
@@ -3099,7 +3113,7 @@
    "org": "Irregular",
    "group": "Safety-focused company",
    "category": "Operations",
-   "days_open": 25,
+   "days_open": 26,
    "skills": [
     "Building processes and systems",
     "Finance and budgeting",
@@ -3124,7 +3138,7 @@
    "org": "Irregular",
    "group": "Safety-focused company",
    "category": "Operations",
-   "days_open": 17,
+   "days_open": 18,
    "skills": [
     "Finance and budgeting",
     "Events and logistics",
@@ -3146,7 +3160,7 @@
    "org": "Irregular",
    "group": "Safety-focused company",
    "category": "Research",
-   "days_open": 160,
+   "days_open": 161,
    "skills": [],
    "words": 344
   },
@@ -3162,7 +3176,7 @@
    "org": "Irregular",
    "group": "Safety-focused company",
    "category": "Engineering",
-   "days_open": 280,
+   "days_open": 281,
    "skills": [],
    "words": 417
   },
@@ -3178,7 +3192,7 @@
    "org": "Irregular",
    "group": "Safety-focused company",
    "category": "Engineering",
-   "days_open": 88,
+   "days_open": 89,
    "skills": [],
    "words": 491
   },
@@ -3194,7 +3208,7 @@
    "org": "Irregular",
    "group": "Safety-focused company",
    "category": "Engineering",
-   "days_open": 168,
+   "days_open": 169,
    "skills": [],
    "words": 327
   },
@@ -3210,7 +3224,7 @@
    "org": "Irregular",
    "group": "Safety-focused company",
    "category": "Engineering",
-   "days_open": 355,
+   "days_open": 356,
    "skills": [],
    "words": 312
   },
@@ -3226,7 +3240,7 @@
    "org": "Irregular",
    "group": "Safety-focused company",
    "category": "Policy and governance",
-   "days_open": 482,
+   "days_open": 483,
    "skills": [],
    "words": 252
   },
@@ -3242,7 +3256,7 @@
    "org": "Irregular",
    "group": "Safety-focused company",
    "category": "General application",
-   "days_open": 426,
+   "days_open": 427,
    "skills": [],
    "words": 73
   },
@@ -3258,7 +3272,7 @@
    "org": "LawZero",
    "group": "Research and evaluations",
    "category": "Operations",
-   "days_open": 20,
+   "days_open": 21,
    "skills": [
     "Finance and budgeting",
     "Legal and compliance",
@@ -3282,7 +3296,7 @@
    "org": "LawZero",
    "group": "Research and evaluations",
    "category": "Other",
-   "days_open": 181,
+   "days_open": 182,
    "skills": [],
    "words": 952
   },
@@ -3298,7 +3312,7 @@
    "org": "LawZero",
    "group": "Research and evaluations",
    "category": "General application",
-   "days_open": 10,
+   "days_open": 11,
    "skills": [],
    "words": 329
   },
@@ -3314,7 +3328,7 @@
    "org": "LawZero",
    "group": "Research and evaluations",
    "category": "General application",
-   "days_open": 165,
+   "days_open": 166,
    "skills": [],
    "words": 363
   },
@@ -3330,7 +3344,7 @@
    "org": "LawZero",
    "group": "Research and evaluations",
    "category": "Engineering",
-   "days_open": 159,
+   "days_open": 160,
    "skills": [],
    "words": 602
   },
@@ -3346,7 +3360,7 @@
    "org": "LawZero",
    "group": "Research and evaluations",
    "category": "Research",
-   "days_open": 178,
+   "days_open": 179,
    "skills": [],
    "words": 782
   },
@@ -3362,7 +3376,7 @@
    "org": "LawZero",
    "group": "Research and evaluations",
    "category": "Operations",
-   "days_open": 12,
+   "days_open": 13,
    "skills": [
     "Building processes and systems",
     "Hiring and recruiting",
@@ -3387,7 +3401,7 @@
    "org": "LawZero",
    "group": "Research and evaluations",
    "category": "Engineering",
-   "days_open": 68,
+   "days_open": 69,
    "skills": [],
    "words": 685
   },
@@ -3403,23 +3417,23 @@
    "org": "LawZero",
    "group": "Research and evaluations",
    "category": "Engineering",
-   "days_open": 291,
+   "days_open": 292,
    "skills": [],
    "words": 533
   },
   {
-   "id": "gh-lawzero-4305208009",
+   "id": "gh-lawzero-4510745009",
    "title": "Senior ML Data Processing Developer",
-   "url": "https://job-boards.greenhouse.io/lawzero/jobs/4305208009",
+   "url": "https://job-boards.greenhouse.io/lawzero/jobs/4510745009",
    "location": "Berlin; Montreal",
    "team": "Science",
-   "published": "2026-07-02T19:06:29+00:00",
+   "published": "2026-11-17T16:58:58+00:00",
    "salary": null,
    "remote": false,
    "org": "LawZero",
    "group": "Research and evaluations",
    "category": "Engineering",
-   "days_open": 137,
+   "days_open": 0,
    "skills": [],
    "words": 773
   },
@@ -3435,7 +3449,7 @@
    "org": "LawZero",
    "group": "Research and evaluations",
    "category": "Research",
-   "days_open": 531,
+   "days_open": 532,
    "skills": [],
    "words": 465
   },
@@ -3451,7 +3465,7 @@
    "org": "LawZero",
    "group": "Research and evaluations",
    "category": "Research",
-   "days_open": 531,
+   "days_open": 532,
    "skills": [],
    "words": 605
   },
@@ -3467,7 +3481,7 @@
    "org": "LawZero",
    "group": "Research and evaluations",
    "category": "Policy and governance",
-   "days_open": 41,
+   "days_open": 42,
    "skills": [],
    "words": 758
   },
@@ -3483,7 +3497,7 @@
    "org": "LawZero",
    "group": "Research and evaluations",
    "category": "Communications",
-   "days_open": 144,
+   "days_open": 145,
    "skills": [],
    "words": 912
   },
@@ -3499,7 +3513,7 @@
    "org": "LawZero",
    "group": "Research and evaluations",
    "category": "Operations",
-   "days_open": 60,
+   "days_open": 61,
    "skills": [
     "Hiring and recruiting",
     "People and HR",
@@ -3513,7 +3527,7 @@
    "title": "Data Center Security Architect",
    "url": "https://jobs.ashbyhq.com/lucidcomputing/ea0aff04-aa5d-4f5a-8dff-32eef7f09a98",
    "location": "San Francisco",
-   "team": "Engineering",
+   "team": "Lucid Labs",
    "published": "2026-09-02T14:33:15.875000+00:00",
    "salary": {
     "min": 140000,
@@ -3524,7 +3538,7 @@
    "org": "Lucid Computing",
    "group": "Safety-focused company",
    "category": "Engineering",
-   "days_open": 75,
+   "days_open": 76,
    "skills": [],
    "words": 1008
   },
@@ -3540,7 +3554,7 @@
    "org": "Lucid Computing",
    "group": "Safety-focused company",
    "category": "General application",
-   "days_open": 76,
+   "days_open": 77,
    "skills": [],
    "words": 147
   },
@@ -3549,7 +3563,7 @@
    "title": "Head of Commercial Partnerships",
    "url": "https://jobs.ashbyhq.com/lucidcomputing/45846d41-dcd7-481e-b1e4-5f0c0b8769c8",
    "location": "San Francisco",
-   "team": "Commercial",
+   "team": "Lucid Cloud",
    "published": "2026-09-02T14:58:48.120000+00:00",
    "salary": {
     "min": 150000,
@@ -3560,7 +3574,7 @@
    "org": "Lucid Computing",
    "group": "Safety-focused company",
    "category": "Sales and partnerships",
-   "days_open": 75,
+   "days_open": 76,
    "skills": [],
    "words": 355
   },
@@ -3580,7 +3594,7 @@
    "org": "Lucid Computing",
    "group": "Safety-focused company",
    "category": "Policy and governance",
-   "days_open": 60,
+   "days_open": 61,
    "skills": [],
    "words": 658
   },
@@ -3589,7 +3603,7 @@
    "title": "Member of Technical Staff",
    "url": "https://jobs.ashbyhq.com/lucidcomputing/a19cd7c3-6ed2-4659-bf9a-1c27200319d7",
    "location": "San Francisco",
-   "team": "Engineering",
+   "team": "Lucid Labs",
    "published": "2026-08-07T20:23:09.028000+00:00",
    "salary": {
     "min": 100000,
@@ -3600,7 +3614,7 @@
    "org": "Lucid Computing",
    "group": "Safety-focused company",
    "category": "Engineering",
-   "days_open": 101,
+   "days_open": 102,
    "skills": [],
    "words": 444
   },
@@ -3609,7 +3623,7 @@
    "title": "Member of Technical Staff \u2014 Network Engineer (Software)",
    "url": "https://jobs.ashbyhq.com/lucidcomputing/24af46c1-63e5-45e3-9ad0-40477a8f76f5",
    "location": "San Francisco",
-   "team": "Engineering",
+   "team": "Lucid Labs",
    "published": "2026-09-17T12:22:16.590000+00:00",
    "salary": {
     "min": 100000,
@@ -3620,7 +3634,7 @@
    "org": "Lucid Computing",
    "group": "Safety-focused company",
    "category": "Engineering",
-   "days_open": 60,
+   "days_open": 61,
    "skills": [],
    "words": 838
   },
@@ -3636,7 +3650,7 @@
    "org": "Lucid Computing",
    "group": "Safety-focused company",
    "category": "Operations",
-   "days_open": 75,
+   "days_open": 76,
    "skills": [
     "Building processes and systems",
     "Hiring and recruiting",
@@ -3664,7 +3678,7 @@
    "org": "Lucid Computing",
    "group": "Safety-focused company",
    "category": "Policy and governance",
-   "days_open": 28,
+   "days_open": 29,
    "skills": [],
    "words": 798
   },
@@ -3673,7 +3687,7 @@
    "title": "VP of Research",
    "url": "https://jobs.ashbyhq.com/lucidcomputing/68403df6-2f3b-4f59-b271-c3605f8c8305",
    "location": "San Francisco",
-   "team": "Engineering",
+   "team": "Lucid Labs",
    "published": "2026-09-24T19:46:34.945000+00:00",
    "salary": {
     "min": 250000,
@@ -3684,29 +3698,9 @@
    "org": "Lucid Computing",
    "group": "Safety-focused company",
    "category": "Research",
-   "days_open": 53,
+   "days_open": 54,
    "skills": [],
    "words": 374
-  },
-  {
-   "id": "lv-metr-a25c768b-bd47-4035-9320-59f164f2338a",
-   "title": "Director of Development (Member of Policy Staff)",
-   "url": "https://jobs.lever.co/metr/a25c768b-bd47-4035-9320-59f164f2338a",
-   "location": "Berkeley",
-   "team": "Policy",
-   "published": "2026-11-16T21:04:04.460000+00:00",
-   "salary": {
-    "min": 206971,
-    "max": 306317,
-    "currency": "USD"
-   },
-   "remote": false,
-   "org": "METR",
-   "group": "Research and evaluations",
-   "category": "Policy and governance",
-   "days_open": 0,
-   "skills": [],
-   "words": 749
   },
   {
    "id": "lv-metr-f3a6db11-7fd1-48e4-af42-20aad1ded72d",
@@ -3720,9 +3714,29 @@
    "org": "METR",
    "group": "Research and evaluations",
    "category": "General application",
-   "days_open": 1398,
+   "days_open": 1399,
    "skills": [],
    "words": 805
+  },
+  {
+   "id": "lv-metr-a25c768b-bd47-4035-9320-59f164f2338a",
+   "title": "Head of Development",
+   "url": "https://jobs.lever.co/metr/a25c768b-bd47-4035-9320-59f164f2338a",
+   "location": "Berkeley",
+   "team": "Operations",
+   "published": "2026-11-16T21:04:04.460000+00:00",
+   "salary": {
+    "min": 206971,
+    "max": 306317,
+    "currency": "USD"
+   },
+   "remote": false,
+   "org": "METR",
+   "group": "Research and evaluations",
+   "category": "Other",
+   "days_open": 1,
+   "skills": [],
+   "words": 749
   },
   {
    "id": "lv-metr-b13ea10e-b4f7-4429-b7fe-71970597d1cd",
@@ -3740,7 +3754,7 @@
    "org": "METR",
    "group": "Research and evaluations",
    "category": "Operations",
-   "days_open": 41,
+   "days_open": 42,
    "skills": [
     "Building processes and systems",
     "Finance and budgeting",
@@ -3770,29 +3784,9 @@
    "org": "METR",
    "group": "Research and evaluations",
    "category": "Policy and governance",
-   "days_open": 137,
+   "days_open": 138,
    "skills": [],
    "words": 673
-  },
-  {
-   "id": "lv-metr-69792e29-e72c-44a2-8305-82cb40ab17c5",
-   "title": "Member of Technical Staff, Embedded Assessments",
-   "url": "https://jobs.lever.co/metr/69792e29-e72c-44a2-8305-82cb40ab17c5",
-   "location": "Berkeley",
-   "team": "Engineering & Research",
-   "published": "2026-07-19T23:24:00.656000+00:00",
-   "salary": {
-    "min": 402048,
-    "max": 687759,
-    "currency": "USD"
-   },
-   "remote": false,
-   "org": "METR",
-   "group": "Research and evaluations",
-   "category": "Engineering",
-   "days_open": 120,
-   "skills": [],
-   "words": 725
   },
   {
    "id": "ab-miri-5d13ba07-8fbf-4f46-aa1b-9000a7d1dc3f",
@@ -3810,7 +3804,7 @@
    "org": "MIRI",
    "group": "Research and evaluations",
    "category": "Policy and governance",
-   "days_open": 87,
+   "days_open": 88,
    "skills": [],
    "words": 892
   },
@@ -3830,7 +3824,7 @@
    "org": "MIRI",
    "group": "Research and evaluations",
    "category": "Policy and governance",
-   "days_open": 430,
+   "days_open": 431,
    "skills": [],
    "words": 1064
   },
@@ -3850,7 +3844,7 @@
    "org": "OpenAI (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Policy and governance",
-   "days_open": 2,
+   "days_open": 3,
    "skills": [],
    "words": 814
   },
@@ -3870,7 +3864,7 @@
    "org": "OpenAI (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Operations",
-   "days_open": 102,
+   "days_open": 103,
    "skills": [],
    "words": 1092
   },
@@ -3890,7 +3884,7 @@
    "org": "OpenAI (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Operations",
-   "days_open": 13,
+   "days_open": 14,
    "skills": [
     "Building processes and systems",
     "Events and logistics",
@@ -3916,7 +3910,7 @@
    "org": "OpenAI (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Operations",
-   "days_open": 77,
+   "days_open": 78,
    "skills": [
     "Building processes and systems",
     "People and HR",
@@ -3944,7 +3938,7 @@
    "org": "OpenAI (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Research",
-   "days_open": 10,
+   "days_open": 11,
    "skills": [],
    "words": 976
   },
@@ -3964,9 +3958,9 @@
    "org": "OpenAI (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Research",
-   "days_open": 185,
+   "days_open": 186,
    "skills": [],
-   "words": 808
+   "words": 789
   },
   {
    "id": "ab-openai-24f3c017-d844-4df1-bc52-71f95b6e731d",
@@ -3984,7 +3978,7 @@
    "org": "OpenAI (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Operations",
-   "days_open": 143,
+   "days_open": 144,
    "skills": [],
    "words": 1092
   },
@@ -4004,7 +3998,7 @@
    "org": "OpenAI (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Engineering",
-   "days_open": 28,
+   "days_open": 29,
    "skills": [],
    "words": 741
   },
@@ -4024,7 +4018,7 @@
    "org": "OpenAI (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Engineering",
-   "days_open": 55,
+   "days_open": 56,
    "skills": [],
    "words": 757
   },
@@ -4044,7 +4038,7 @@
    "org": "OpenAI (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Engineering",
-   "days_open": 7,
+   "days_open": 8,
    "skills": [],
    "words": 757
   },
@@ -4064,7 +4058,7 @@
    "org": "OpenAI (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Engineering",
-   "days_open": 7,
+   "days_open": 8,
    "skills": [],
    "words": 757
   },
@@ -4100,7 +4094,7 @@
    "org": "OpenAI (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Operations",
-   "days_open": 94,
+   "days_open": 95,
    "skills": [
     "Building processes and systems",
     "Finance and budgeting",
@@ -4128,7 +4122,7 @@
    "org": "OpenAI (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Policy and governance",
-   "days_open": 77,
+   "days_open": 78,
    "skills": [],
    "words": 1299
   },
@@ -4148,7 +4142,7 @@
    "org": "OpenAI (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Engineering",
-   "days_open": 41,
+   "days_open": 42,
    "skills": [],
    "words": 930
   },
@@ -4168,7 +4162,7 @@
    "org": "OpenAI (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Policy and governance",
-   "days_open": 62,
+   "days_open": 63,
    "skills": [],
    "words": 964
   },
@@ -4188,7 +4182,7 @@
    "org": "OpenAI (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Policy and governance",
-   "days_open": 31,
+   "days_open": 32,
    "skills": [],
    "words": 718
   },
@@ -4208,7 +4202,7 @@
    "org": "OpenAI (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Operations",
-   "days_open": 3,
+   "days_open": 4,
    "skills": [
     "Working with stakeholders",
     "Clear writing"
@@ -4231,7 +4225,7 @@
    "org": "OpenAI (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Other",
-   "days_open": 7,
+   "days_open": 8,
    "skills": [],
    "words": 875
   },
@@ -4251,7 +4245,7 @@
    "org": "OpenAI (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Operations",
-   "days_open": 91,
+   "days_open": 92,
    "skills": [
     "Building processes and systems",
     "Project management",
@@ -4277,7 +4271,7 @@
    "org": "OpenAI (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Operations",
-   "days_open": 32,
+   "days_open": 33,
    "skills": [
     "Building processes and systems",
     "Project management",
@@ -4285,6 +4279,31 @@
     "Strategy and planning"
    ],
    "words": 891
+  },
+  {
+   "id": "ab-openai-6b8c6731-9bf0-4a0a-8e2f-46662f5a5073",
+   "title": "Privacy Operations Analyst",
+   "url": "https://jobs.ashbyhq.com/openai/6b8c6731-9bf0-4a0a-8e2f-46662f5a5073",
+   "location": "Dublin, Ireland",
+   "team": "Trust & Safety",
+   "published": "2026-11-17T21:24:20.132000+00:00",
+   "salary": null,
+   "remote": true,
+   "org": "OpenAI (safety and policy teams)",
+   "group": "Frontier lab",
+   "category": "Operations",
+   "days_open": 0,
+   "skills": [
+    "Building processes and systems",
+    "Finance and budgeting",
+    "Legal and compliance",
+    "Working with stakeholders",
+    "Data and spreadsheets",
+    "Office and workplace",
+    "Strategy and planning",
+    "Clear writing"
+   ],
+   "words": 1258
   },
   {
    "id": "ab-openai-05a8cae8-81bd-4f7b-bc48-41ef1bd67e5d",
@@ -4302,29 +4321,9 @@
    "org": "OpenAI (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Product",
-   "days_open": 193,
+   "days_open": 194,
    "skills": [],
    "words": 704
-  },
-  {
-   "id": "ab-openai-529feb11-4b9b-4baf-9b3f-f2b100156c5a",
-   "title": "Protection Scientist Engineer, Integrity",
-   "url": "https://jobs.ashbyhq.com/openai/529feb11-4b9b-4baf-9b3f-f2b100156c5a",
-   "location": "San Francisco",
-   "team": "Applied AI Engineering",
-   "published": "2026-05-05T16:58:58.756000+00:00",
-   "salary": {
-    "min": 198000,
-    "max": 425000,
-    "currency": "USD"
-   },
-   "remote": false,
-   "org": "OpenAI (safety and policy teams)",
-   "group": "Frontier lab",
-   "category": "Research",
-   "days_open": 195,
-   "skills": [],
-   "words": 1170
   },
   {
    "id": "ab-openai-3fefc615-6950-4a29-9214-eefdc4e659e3",
@@ -4338,9 +4337,9 @@
    "org": "OpenAI (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Research",
-   "days_open": 404,
+   "days_open": 405,
    "skills": [],
-   "words": 1170
+   "words": 1349
   },
   {
    "id": "ab-openai-badafdf8-116b-4849-b848-2f20a3ff2732",
@@ -4358,7 +4357,7 @@
    "org": "OpenAI (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Other",
-   "days_open": 90,
+   "days_open": 91,
    "skills": [],
    "words": 981
   },
@@ -4378,7 +4377,7 @@
    "org": "OpenAI (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Operations",
-   "days_open": 55,
+   "days_open": 56,
    "skills": [
     "Building processes and systems",
     "Finance and budgeting",
@@ -4406,7 +4405,7 @@
    "org": "OpenAI (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Operations",
-   "days_open": 56,
+   "days_open": 57,
    "skills": [
     "Finance and budgeting",
     "Project management",
@@ -4432,7 +4431,7 @@
    "org": "OpenAI (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Operations",
-   "days_open": 68,
+   "days_open": 69,
    "skills": [
     "Project management",
     "Working with stakeholders",
@@ -4456,7 +4455,7 @@
    "org": "OpenAI (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Operations",
-   "days_open": 18,
+   "days_open": 19,
    "skills": [
     "Project management",
     "Working with stakeholders",
@@ -4481,7 +4480,7 @@
    "org": "OpenAI (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Operations",
-   "days_open": 17,
+   "days_open": 18,
    "skills": [
     "Project management",
     "Working with stakeholders",
@@ -4505,7 +4504,7 @@
    "org": "OpenAI (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Research",
-   "days_open": 26,
+   "days_open": 27,
    "skills": [],
    "words": 865
   },
@@ -4525,7 +4524,7 @@
    "org": "OpenAI (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Research",
-   "days_open": 74,
+   "days_open": 75,
    "skills": [],
    "words": 816
   },
@@ -4545,7 +4544,7 @@
    "org": "OpenAI (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Research",
-   "days_open": 74,
+   "days_open": 75,
    "skills": [],
    "words": 727
   },
@@ -4565,7 +4564,7 @@
    "org": "OpenAI (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Research",
-   "days_open": 811,
+   "days_open": 812,
    "skills": [],
    "words": 926
   },
@@ -4585,7 +4584,7 @@
    "org": "OpenAI (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Research",
-   "days_open": 104,
+   "days_open": 105,
    "skills": [],
    "words": 966
   },
@@ -4605,7 +4604,7 @@
    "org": "OpenAI (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Research",
-   "days_open": 76,
+   "days_open": 77,
    "skills": [],
    "words": 685
   },
@@ -4625,7 +4624,7 @@
    "org": "OpenAI (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Research",
-   "days_open": 105,
+   "days_open": 106,
    "skills": [],
    "words": 844
   },
@@ -4645,7 +4644,7 @@
    "org": "OpenAI (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Research",
-   "days_open": 99,
+   "days_open": 100,
    "skills": [],
    "words": 873
   },
@@ -4665,7 +4664,7 @@
    "org": "OpenAI (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Research",
-   "days_open": 0,
+   "days_open": 1,
    "skills": [],
    "words": 937
   },
@@ -4685,7 +4684,7 @@
    "org": "OpenAI (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Research",
-   "days_open": 25,
+   "days_open": 26,
    "skills": [],
    "words": 997
   },
@@ -4705,7 +4704,7 @@
    "org": "OpenAI (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Research",
-   "days_open": 105,
+   "days_open": 106,
    "skills": [],
    "words": 782
   },
@@ -4725,7 +4724,7 @@
    "org": "OpenAI (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Research",
-   "days_open": 101,
+   "days_open": 102,
    "skills": [],
    "words": 1046
   },
@@ -4745,7 +4744,7 @@
    "org": "OpenAI (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Research",
-   "days_open": 657,
+   "days_open": 658,
    "skills": [],
    "words": 835
   },
@@ -4765,7 +4764,7 @@
    "org": "OpenAI (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Research",
-   "days_open": 1272,
+   "days_open": 1273,
    "skills": [],
    "words": 907
   },
@@ -4785,7 +4784,7 @@
    "org": "OpenAI (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Operations",
-   "days_open": 80,
+   "days_open": 81,
    "skills": [
     "Building processes and systems",
     "Events and logistics",
@@ -4810,7 +4809,7 @@
    "org": "OpenAI (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Communications",
-   "days_open": 123,
+   "days_open": 124,
    "skills": [],
    "words": 1300
   },
@@ -4830,7 +4829,7 @@
    "org": "OpenAI (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Operations",
-   "days_open": 7,
+   "days_open": 8,
    "skills": [
     "Legal and compliance",
     "Working with stakeholders"
@@ -4853,7 +4852,7 @@
    "org": "OpenAI (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Operations",
-   "days_open": 97,
+   "days_open": 98,
    "skills": [
     "Building processes and systems",
     "Events and logistics",
@@ -4882,7 +4881,7 @@
    "org": "OpenAI (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Engineering",
-   "days_open": 299,
+   "days_open": 300,
    "skills": [],
    "words": 731
   },
@@ -4902,7 +4901,7 @@
    "org": "OpenAI (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Engineering",
-   "days_open": 87,
+   "days_open": 88,
    "skills": [],
    "words": 782
   },
@@ -4922,7 +4921,7 @@
    "org": "OpenAI (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Engineering",
-   "days_open": 63,
+   "days_open": 64,
    "skills": [],
    "words": 1238
   },
@@ -4942,7 +4941,7 @@
    "org": "OpenAI (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Engineering",
-   "days_open": 95,
+   "days_open": 96,
    "skills": [],
    "words": 821
   },
@@ -4962,7 +4961,7 @@
    "org": "OpenAI (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Engineering",
-   "days_open": 888,
+   "days_open": 889,
    "skills": [],
    "words": 804
   },
@@ -4982,7 +4981,7 @@
    "org": "OpenAI (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Engineering",
-   "days_open": 77,
+   "days_open": 78,
    "skills": [],
    "words": 810
   },
@@ -5002,7 +5001,7 @@
    "org": "OpenAI (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Engineering",
-   "days_open": 161,
+   "days_open": 162,
    "skills": [],
    "words": 886
   },
@@ -5018,7 +5017,7 @@
    "org": "OpenAI (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Operations",
-   "days_open": 0,
+   "days_open": 1,
    "skills": [
     "Building processes and systems",
     "Data and spreadsheets"
@@ -5041,7 +5040,7 @@
    "org": "OpenAI (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Operations",
-   "days_open": 3,
+   "days_open": 4,
    "skills": [
     "Building processes and systems",
     "Data and spreadsheets",
@@ -5065,7 +5064,7 @@
    "org": "OpenAI (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Operations",
-   "days_open": 90,
+   "days_open": 91,
    "skills": [
     "Building processes and systems",
     "Project management",
@@ -5091,7 +5090,7 @@
    "org": "OpenAI (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Operations",
-   "days_open": 80,
+   "days_open": 81,
    "skills": [
     "Building processes and systems",
     "Project management",
@@ -5119,7 +5118,7 @@
    "org": "OpenAI (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Operations",
-   "days_open": 18,
+   "days_open": 19,
    "skills": [
     "Building processes and systems",
     "People and HR",
@@ -5147,7 +5146,7 @@
    "org": "OpenAI (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Operations",
-   "days_open": 18,
+   "days_open": 19,
    "skills": [
     "Building processes and systems",
     "People and HR",
@@ -5172,7 +5171,7 @@
    "org": "OpenAI (safety and policy teams)",
    "group": "Frontier lab",
    "category": "Operations",
-   "days_open": 105,
+   "days_open": 106,
    "skills": [
     "Building processes and systems",
     "Legal and compliance",
@@ -5197,7 +5196,7 @@
    "org": "Pivotal Research",
    "group": "Field-building",
    "category": "Other",
-   "days_open": 9,
+   "days_open": 10,
    "skills": [],
    "words": 662
   },
@@ -5217,7 +5216,7 @@
    "org": "Pivotal Research",
    "group": "Field-building",
    "category": "Other",
-   "days_open": 9,
+   "days_open": 10,
    "skills": [],
    "words": 753
   },
@@ -5237,7 +5236,7 @@
    "org": "Pivotal Research",
    "group": "Field-building",
    "category": "Communications",
-   "days_open": 9,
+   "days_open": 10,
    "skills": [],
    "words": 617
   },
@@ -5257,7 +5256,7 @@
    "org": "Pivotal Research",
    "group": "Field-building",
    "category": "Operations",
-   "days_open": 9,
+   "days_open": 10,
    "skills": [
     "Building processes and systems",
     "People and HR",
@@ -5281,7 +5280,7 @@
    "org": "Pivotal Research",
    "group": "Field-building",
    "category": "Operations",
-   "days_open": 9,
+   "days_open": 10,
    "skills": [
     "Hiring and recruiting",
     "Finance and budgeting",
@@ -5307,7 +5306,7 @@
    "org": "Pivotal Research",
    "group": "Field-building",
    "category": "Research",
-   "days_open": 9,
+   "days_open": 10,
    "skills": [],
    "words": 829
   },
@@ -5327,7 +5326,7 @@
    "org": "Pivotal Research",
    "group": "Field-building",
    "category": "Research",
-   "days_open": 9,
+   "days_open": 10,
    "skills": [],
    "words": 768
   },
@@ -5347,7 +5346,7 @@
    "org": "Pivotal Research",
    "group": "Field-building",
    "category": "Operations",
-   "days_open": 9,
+   "days_open": 10,
    "skills": [
     "Hiring and recruiting",
     "Events and logistics",
@@ -5371,7 +5370,7 @@
    "org": "Redwood Research",
    "group": "Research and evaluations",
    "category": "Research",
-   "days_open": 7,
+   "days_open": 8,
    "skills": [],
    "words": 443
   },
@@ -5391,7 +5390,7 @@
    "org": "Redwood Research",
    "group": "Research and evaluations",
    "category": "Research",
-   "days_open": 41,
+   "days_open": 42,
    "skills": [],
    "words": 354
   },
@@ -5407,7 +5406,7 @@
    "org": "Redwood Research",
    "group": "Research and evaluations",
    "category": "General application",
-   "days_open": 10,
+   "days_open": 11,
    "skills": [],
    "words": 309
   },
@@ -5427,7 +5426,7 @@
    "org": "Redwood Research",
    "group": "Research and evaluations",
    "category": "Operations",
-   "days_open": 10,
+   "days_open": 11,
    "skills": [
     "Building processes and systems",
     "People and HR",
@@ -5454,7 +5453,7 @@
    "org": "Redwood Research",
    "group": "Research and evaluations",
    "category": "Operations",
-   "days_open": 18,
+   "days_open": 19,
    "skills": [
     "Building processes and systems",
     "Hiring and recruiting",
@@ -5482,7 +5481,7 @@
    "category": "General application",
    "days_open": 40,
    "skills": [],
-   "words": 1273
+   "words": 1294
   },
   {
    "id": "gh-aisi-4989667101",
@@ -5496,9 +5495,9 @@
    "org": "UK AI Security Institute",
    "group": "Government",
    "category": "General application",
-   "days_open": 48,
+   "days_open": 49,
    "skills": [],
-   "words": 1111
+   "words": 1132
   },
   {
    "id": "gh-aisi-4919338101",
@@ -5512,9 +5511,9 @@
    "org": "UK AI Security Institute",
    "group": "Government",
    "category": "General application",
-   "days_open": 135,
+   "days_open": 136,
    "skills": [],
-   "words": 1644
+   "words": 1665
   },
   {
    "id": "gh-aisi-4941583101",
@@ -5528,9 +5527,9 @@
    "org": "UK AI Security Institute",
    "group": "Government",
    "category": "General application",
-   "days_open": 109,
+   "days_open": 110,
    "skills": [],
-   "words": 1351
+   "words": 1372
   },
   {
    "id": "gh-aisi-5030834101",
@@ -5544,9 +5543,9 @@
    "org": "UK AI Security Institute",
    "group": "Government",
    "category": "Other",
-   "days_open": 7,
+   "days_open": 8,
    "skills": [],
-   "words": 2377
+   "words": 2398
   },
   {
    "id": "gh-aisi-5028337101",
@@ -5560,9 +5559,9 @@
    "org": "UK AI Security Institute",
    "group": "Government",
    "category": "Research",
-   "days_open": 11,
+   "days_open": 12,
    "skills": [],
-   "words": 1826
+   "words": 1847
   },
   {
    "id": "gh-aisi-5030927101",
@@ -5576,9 +5575,9 @@
    "org": "UK AI Security Institute",
    "group": "Government",
    "category": "Communications",
-   "days_open": 7,
+   "days_open": 8,
    "skills": [],
-   "words": 2331
+   "words": 2352
   }
  ]
 }
